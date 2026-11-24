@@ -1,0 +1,3 @@
+conjunto,n,accuracy,confianza_baja
+test sintético,810,0.9469135802469136,0.012345679012345678
+40 preguntas manuales,40,0.85,0.0

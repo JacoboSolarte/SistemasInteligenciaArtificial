@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+datos/*
+!datos/.gitkeep
+config/rutas_locales.yaml
+*.mp4
+!ejemplos/*.mp4
+config/secretos.yaml
+
+# imágenes y videos de terceros (internet) analizados localmente: no se republican
+resultados/automatico_propias/

@@ -1,0 +1,2 @@
+experimento,optimizador,f1_val,epocas,parametros,tiempo_s,test_accuracy,test_precision,test_recall,test_f1
+clima,adam,0.9909136799596163,20,548482,321.2313287258148,0.987821679870098,0.9967611336032388,0.9812674372259864,0.9889536051415947

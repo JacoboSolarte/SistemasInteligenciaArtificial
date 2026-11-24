@@ -1,0 +1,47 @@
+{'train': 1974, 'val': 423, 'test': 424}
+Parámetros del MiniDetector: 2,891,162  | cuadrícula 13x13, B=2
+Cajas de train que no caben en su celda (descartadas): 3116/53823 (5.8 %)
+C:\Users\jacob\OneDrive\Desktop\Octavo\IA\ProyectoFinal\parqueadero-ia\entrenamiento\entrenar_detector.py:126: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+  época  1 | loss 60.942 (coord 4.52 obj 25.98 noobj 24.76) | val loss 31.321 | 172s
+  época  2 | loss 24.145 (coord 1.58 obj 7.67 noobj 17.20) | val loss 16.505 | mAP@0.5 val 0.0967 P 0.253 R 0.290 | 152s
+  época  3 | loss 14.106 (coord 0.93 obj 4.02 noobj 10.85) | val loss 19.718 | 171s
+  época  4 | loss 9.847 (coord 0.66 obj 2.68 noobj 7.72) | val loss 10.717 | mAP@0.5 val 0.2443 P 0.451 R 0.430 | 151s
+  época  5 | loss 7.527 (coord 0.51 obj 2.04 noobj 5.87) | val loss 6.015 | 146s
+  época  6 | loss 5.377 (coord 0.38 obj 1.38 noobj 4.23) | val loss 5.409 | mAP@0.5 val 0.6229 P 0.737 R 0.729 | 149s
+  época  7 | loss 4.440 (coord 0.30 obj 1.09 noobj 3.68) | val loss 4.405 | 146s
+  época  8 | loss 3.456 (coord 0.26 obj 0.85 noobj 2.65) | val loss 6.182 | mAP@0.5 val 0.6320 P 0.779 R 0.724 | 149s
+  época  9 | loss 3.297 (coord 0.24 obj 0.81 noobj 2.54) | val loss 3.438 | 146s
+  época 10 | loss 2.394 (coord 0.20 obj 0.56 noobj 1.67) | val loss 3.842 | mAP@0.5 val 0.8294 P 0.911 R 0.849 | 149s
+  época 11 | loss 1.826 (coord 0.17 obj 0.41 noobj 1.15) | val loss 2.547 | 146s
+  época 12 | loss 1.516 (coord 0.15 obj 0.32 noobj 0.93) | val loss 2.544 | mAP@0.5 val 0.8828 P 0.941 R 0.894 | 149s
+  época 13 | loss 1.287 (coord 0.14 obj 0.27 noobj 0.68) | val loss 3.164 | 146s
+  época 14 | loss 1.436 (coord 0.14 obj 0.28 noobj 0.90) | val loss 3.093 | mAP@0.5 val 0.8630 P 0.919 R 0.890 | 149s
+  época 15 | loss 0.949 (coord 0.11 obj 0.18 noobj 0.47) | val loss 3.257 | 146s
+  época 16 | loss 0.759 (coord 0.09 obj 0.12 noobj 0.37) | val loss 1.892 | mAP@0.5 val 0.8947 P 0.954 R 0.908 | 150s
+  época 17 | loss 0.591 (coord 0.08 obj 0.09 noobj 0.23) | val loss 1.941 | 146s
+  época 18 | loss 0.517 (coord 0.07 obj 0.08 noobj 0.19) | val loss 1.972 | mAP@0.5 val 0.9006 P 0.960 R 0.911 | 149s
+  época 19 | loss 2.235 (coord 0.15 obj 0.51 noobj 1.97) | val loss 4.347 | 146s
+  época 20 | loss 0.802 (coord 0.08 obj 0.17 noobj 0.42) | val loss 1.891 | mAP@0.5 val 0.9074 P 0.958 R 0.915 | 149s
+  época 21 | loss 0.476 (coord 0.06 obj 0.07 noobj 0.21) | val loss 1.888 | 146s
+  época 22 | loss 0.432 (coord 0.06 obj 0.07 noobj 0.16) | val loss 1.766 | mAP@0.5 val 0.9160 P 0.970 R 0.920 | 153s
+  época 23 | loss 0.347 (coord 0.05 obj 0.04 noobj 0.13) | val loss 1.615 | 146s
+  época 24 | loss 0.302 (coord 0.04 obj 0.03 noobj 0.11) | val loss 1.610 | mAP@0.5 val 0.9150 P 0.968 R 0.920 | 149s
+  época 25 | loss 0.271 (coord 0.04 obj 0.03 noobj 0.09) | val loss 1.684 | 146s
+  época 26 | loss 0.238 (coord 0.04 obj 0.02 noobj 0.07) | val loss 1.743 | mAP@0.5 val 0.9161 P 0.971 R 0.918 | 148s
+  época 27 | loss 0.205 (coord 0.03 obj 0.02 noobj 0.05) | val loss 1.650 | 145s
+  época 28 | loss 0.195 (coord 0.03 obj 0.02 noobj 0.06) | val loss 1.599 | mAP@0.5 val 0.9196 P 0.972 R 0.923 | 149s
+  época 29 | loss 0.169 (coord 0.03 obj 0.01 noobj 0.03) | val loss 1.641 | 145s
+  época 30 | loss 0.178 (coord 0.03 obj 0.02 noobj 0.04) | val loss 1.726 | mAP@0.5 val 0.9200 P 0.972 R 0.924 | 148s
+  época 31 | loss 0.185 (coord 0.03 obj 0.01 noobj 0.08) | val loss 1.667 | 145s
+  época 32 | loss 0.156 (coord 0.02 obj 0.01 noobj 0.04) | val loss 1.625 | mAP@0.5 val 0.9213 P 0.973 R 0.925 | 148s
+  época 33 | loss 0.146 (coord 0.02 obj 0.01 noobj 0.03) | val loss 1.662 | 145s
+  época 34 | loss 0.139 (coord 0.02 obj 0.01 noobj 0.03) | val loss 1.624 | mAP@0.5 val 0.9201 P 0.973 R 0.924 | 148s
+  época 35 | loss 0.132 (coord 0.02 obj 0.01 noobj 0.03) | val loss 1.638 | 145s
+  época 36 | loss 0.127 (coord 0.02 obj 0.01 noobj 0.02) | val loss 1.658 | mAP@0.5 val 0.9202 P 0.972 R 0.924 | 148s
+  época 37 | loss 0.125 (coord 0.02 obj 0.01 noobj 0.02) | val loss 1.604 | 146s
+  época 38 | loss 0.119 (coord 0.02 obj 0.01 noobj 0.02) | val loss 1.598 | mAP@0.5 val 0.9204 P 0.974 R 0.924 | 150s
+  época 39 | loss 0.118 (coord 0.02 obj 0.01 noobj 0.02) | val loss 1.619 | 145s
+  época 40 | loss 0.118 (coord 0.02 obj 0.01 noobj 0.02) | val loss 1.637 | mAP@0.5 val 0.9201 P 0.973 R 0.924 | 148s
+  early stopping en la época 40
+TEST: mAP50=0.9222  precision=0.9771  recall=0.9257  f1=0.9507

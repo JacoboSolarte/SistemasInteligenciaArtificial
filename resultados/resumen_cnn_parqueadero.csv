@@ -1,0 +1,2 @@
+experimento,optimizador,f1_val,epocas,parametros,tiempo_s,test_accuracy,test_precision,test_recall,test_f1
+parqueadero,adam,0.9983291562238931,20,548482,195.85133838653564,0.9895366568914956,0.9810313262815297,0.9962301177442677,0.9885723070615968

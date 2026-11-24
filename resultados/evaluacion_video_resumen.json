@@ -1,0 +1,16 @@
+[
+  {
+    "suavizado_N": 1,
+    "acierto_promedio": 99.38186813186813,
+    "acierto_min": 89.28571428571429,
+    "error_conteo_promedio": 0.17307692307692307,
+    "frames": 52
+  },
+  {
+    "suavizado_N": 2,
+    "acierto_promedio": 99.6565934065934,
+    "acierto_min": 92.85714285714286,
+    "error_conteo_promedio": 0.09615384615384616,
+    "frames": 52
+  }
+]

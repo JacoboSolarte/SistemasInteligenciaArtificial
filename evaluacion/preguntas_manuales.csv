@@ -1,0 +1,41 @@
+texto,intencion
+oiga y si hay campito pa la moto o qué,disponibilidad
+tengo chance de meter el carro?,disponibilidad
+mi amor vengo en camino hay puesto??,disponibilidad
+"necesito estacionar urgente, queda algo?",disponibilidad
+ya no cabe nadie cierto,disponibilidad
+qué tan lleno anda eso hoy,porcentaje
+cuánto % está ocupado,porcentaje
+el parqueo ya se llenó del todo o va por la mitad,porcentaje
+ocupacion porcentual del lote porfa,porcentaje
+está muy congestionado o qué,porcentaje
+en qué celda me puedo meter,ubicacion
+cuáles números están vacíos,ubicacion
+"dime exactamente dónde hay sitio, qué fila",ubicacion
+recomiéndame un puesto para dejar la camioneta,ubicacion
+dónde está desocupado,ubicacion
+cuántos vehículos contaste en total,conteo_ocupados
+cuántas plazas tienen carro encima,conteo_ocupados
+cuantos autos hay estacionados en este momento,conteo_ocupados
+número de espacios ocupados?,conteo_ocupados
+cuántos carros parqueados ves en la foto,conteo_ocupados
+qué tan confiable es lo que me dices,confianza
+"seguro que eso está bien, no te equivocas?",confianza
+cuál es la confianza de la red,confianza
+hay espacios donde el modelo tenga dudas,confianza
+qué tan preciso fue el análisis de la imagen,confianza
+hazme un informe completo del parqueadero,resumen
+dame el resumen de todo,resumen
+cómo quedó el análisis,resumen
+cuál es el estado del parqueadero ahora,resumen
+dame un reporte rápido,resumen
+holaaa,saludo
+buenas tardes parce,saludo
+quiubo pues,saludo
+hola qué más cómo vas,saludo
+chao gracias por la ayuda,despedida
+listo eso es todo nos vemos,despedida
+qué equipo ganó la liga,fuera_de_tema
+cómo preparo un café,fuera_de_tema
+quién escribió cien años de soledad,fuera_de_tema
+cuánto es la raíz de 144,fuera_de_tema

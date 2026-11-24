@@ -1,0 +1,132 @@
+# =====================================================================
+# Configuración central del proyecto (hiperparámetros, rutas y umbrales)
+# Todas las rutas relativas se interpretan desde la raíz del proyecto.
+# Para cambiar la carpeta de datos sin editar este archivo, crea
+# config/rutas_locales.yaml con:   rutas: {datos: "D:/mis_datos"}
+# =====================================================================
+semilla: 42
+
+rutas:
+  datos: datos                 # aquí quedan datos/crudos y datos/procesados
+  pesos: pesos
+  resultados: resultados
+
+# ---------------------------------------------------------------------
+# Preparación de datos
+# ---------------------------------------------------------------------
+datos:
+  tam_recorte: 64              # tamaño de entrada de la CNN (64x64)
+  max_cnrext: 60000            # recortes de CNRPark-EXT a usar (muestreo estratificado)
+  imagenes_pklot_por_grupo: 150 # imágenes PKLot por (parqueadero, clima) para recortar espacios
+  proporciones: [0.70, 0.15, 0.15]   # train / val / test
+  # Días reservados (NO se usan para entrenar) para construir el video de demostración
+  dias_reservados_video:
+    UFPR04: auto              # "auto" = el día soleado con más imágenes
+  detector:
+    tam_imagen: 416
+    imagenes_por_grupo: 330    # imágenes por (parqueadero, clima) para el detector
+
+# ---------------------------------------------------------------------
+# Modelo 1: CNNEspacios
+# ---------------------------------------------------------------------
+cnn:
+  filtros: [16, 32, 64]        # canales de los 3 bloques convolucionales
+  neuronas_densa: 128
+  dropout: 0.5
+  optimizador: adam            # adam | sgd
+  lr: 0.001
+  momentum: 0.9                # solo para SGD
+  weight_decay: 0.0001
+  tam_lote: 128
+  epocas: 20
+  paciencia: 4                 # early stopping (épocas sin mejorar la pérdida de validación)
+  scheduler_factor: 0.5        # ReduceLROnPlateau
+  scheduler_paciencia: 2
+  aumento: true
+
+# ---------------------------------------------------------------------
+# Optimización de hiperparámetros (Hill Climbing y estrategia evolutiva)
+# ---------------------------------------------------------------------
+optimizacion:
+  epocas_por_evaluacion: 3
+  muestras_train: 12000        # subconjunto para evaluar rápido
+  muestras_val: 4000
+  hill_climbing:
+    iteraciones: 12
+    vecinos_steepest: 3        # vecinos evaluados por paso en la variante de máxima pendiente
+    iteraciones_steepest: 4
+  evolutiva:
+    mu: 3                      # padres
+    lambda: 6                  # hijos por generación
+    generaciones: 4
+    sigma: 0.3                 # desviación de la mutación gaussiana (en espacio normalizado)
+
+# ---------------------------------------------------------------------
+# Modelo 2: MiniDetector
+# ---------------------------------------------------------------------
+detector:
+  tam_imagen: 416
+  cajas_por_celda: 2           # B
+  lambda_coord: 5.0
+  lambda_noobj: 0.5
+  lr: 0.001
+  tam_lote: 16
+  epocas: 40
+  paciencia: 8
+  umbral_confianza: 0.4
+  umbral_nms: 0.45
+
+# ---------------------------------------------------------------------
+# Modelo 3: TransformerAsistente
+# ---------------------------------------------------------------------
+asistente:
+  frases_por_intencion: 600
+  d_modelo: 64
+  cabezas: 4
+  capas: 2
+  d_ff: 128
+  dropout: 0.1
+  max_tokens: 24
+  lr: 0.0005
+  tam_lote: 64
+  epocas: 60
+  paciencia: 5
+  umbral_intencion: 0.5        # por debajo de esto el asistente dice que no entendió
+
+# ---------------------------------------------------------------------
+# Inferencia y fusión
+# ---------------------------------------------------------------------
+inferencia:
+  usar_detector: true          # false = el sistema funciona solo con la CNN
+  umbral_cnn: 0.80             # confianza mínima de la CNN para decidir sola
+  umbral_iou_fusion: 0.30      # IoU caja-espacio para considerar el espacio ocupado
+  umbral_baja_confianza: 0.75  # espacios por debajo de esto se reportan como "dudosos"
+  frames_suavizado: 2          # N: frames consecutivos para cambiar de estado en video
+  procesar_cada_k: 1           # K: procesar 1 de cada K frames
+
+# ---------------------------------------------------------------------
+# Modelo 4: DetectorUniversal (modo automático, sin JSON de espacios)
+# ---------------------------------------------------------------------
+detector_universal:
+  pklot_por_grupo: 120         # imágenes de PKLot por (parqueadero, clima)
+  canales: [24, 48, 96, 160, 256]
+  canal_cuello: 64
+  tam_entrada: 512             # recorte de entrenamiento (la inferencia acepta cualquier tamaño)
+  escala_min: 0.5              # aumento de escala aleatorio (simula distintas alturas / zoom)
+  escala_max: 1.6
+  tam_lote: 8
+  lr: 0.002
+  weight_decay: 0.0005
+  epocas: 30
+  muestras_por_epoca: 4000
+  paciencia: 7
+  # peso de muestreo de cada fuente (para que PKLot, la más grande, no domine)
+  pesos_fuente: {pklot: 0.22, carpk: 0.24, dron_parkinglot: 0.08, lateral_park2: 0.12,
+                 suelo_mingouws: 0.16, garaje_gvjqh: 0.14, noche_drone: 0.04}
+  umbral_confianza: 0.30
+  umbral_nms: 0.50
+  lado_inferencia: auto        # "auto" = 800 px y, si los objetos salen diminutos, + 1280 px; o un número / lista
+  tam_auto: 24                 # mediana del lado menor (px a escala 800) bajo la cual se activa la escala 1280
+  tam_pequeno: 22              # multiescala: la escala grande solo aporta objetos con lado < 22 px (a escala base)
+  umbral_dudoso: 0.40          # confianza bajo la cual un espacio se marca como "dudoso" (borde amarillo)
+  inferir_por_filas: true      # regla geométrica de filas (inferencia/filas.py)

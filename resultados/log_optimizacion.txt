@@ -1,0 +1,81 @@
+=== Hill Climbing ===
+    [HC] lr=1.0e-03|do=0.50|f=16|b=128  ->  F1 val = 0.9734  (24.0s)
+    [HC] lr=1.2e-03|do=0.41|f=16|b=128  ->  F1 val = 0.9740  (15.1s)
+  HC iter  1: candidato 0.9740 ACEPTADO | mejor 0.9740
+    [HC] lr=3.2e-04|do=0.29|f=16|b=128  ->  F1 val = 0.9713  (14.6s)
+  HC iter  2: candidato 0.9713 rechazado | mejor 0.9740
+    [HC] lr=1.2e-03|do=0.33|f=24|b=128  ->  F1 val = 0.9718  (18.7s)
+  HC iter  3: candidato 0.9718 rechazado | mejor 0.9740
+    [HC] lr=1.3e-03|do=0.51|f=16|b=128  ->  F1 val = 0.9691  (14.8s)
+  HC iter  4: candidato 0.9691 rechazado | mejor 0.9740
+    [HC] lr=1.6e-03|do=0.32|f=24|b=128  ->  F1 val = 0.9697  (20.0s)
+  HC iter  5: candidato 0.9697 rechazado | mejor 0.9740
+    [HC] lr=1.1e-03|do=0.34|f=24|b=128  ->  F1 val = 0.9718  (21.1s)
+  HC iter  6: candidato 0.9718 rechazado | mejor 0.9740
+    [HC] lr=9.2e-04|do=0.37|f=16|b=128  ->  F1 val = 0.9743  (26.3s)
+  HC iter  7: candidato 0.9743 ACEPTADO | mejor 0.9743
+    [HC] lr=1.2e-03|do=0.41|f=24|b=128  ->  F1 val = 0.9704  (34.4s)
+  HC iter  8: candidato 0.9704 rechazado | mejor 0.9743
+    [HC] lr=6.4e-04|do=0.30|f=16|b=256  ->  F1 val = 0.9698  (17.7s)
+  HC iter  9: candidato 0.9698 rechazado | mejor 0.9743
+    [HC] lr=8.5e-04|do=0.30|f=16|b=128  ->  F1 val = 0.9766  (15.5s)
+  HC iter 10: candidato 0.9766 ACEPTADO | mejor 0.9766
+    [HC] lr=1.4e-03|do=0.35|f=16|b=128  ->  F1 val = 0.9738  (15.7s)
+  HC iter 11: candidato 0.9738 rechazado | mejor 0.9766
+    [HC] lr=9.2e-04|do=0.32|f=24|b=128  ->  F1 val = 0.9742  (19.5s)
+  HC iter 12: candidato 0.9742 rechazado | mejor 0.9766
+=== Hill Climbing (máxima pendiente) ===
+    [HC-steepest] lr=1.6e-03|do=0.51|f=16|b=128  ->  F1 val = 0.9713  (14.8s)
+    [HC-steepest] lr=3.6e-04|do=0.47|f=16|b=128  ->  F1 val = 0.9701  (15.7s)
+    [HC-steepest] lr=8.3e-04|do=0.64|f=12|b=128  ->  F1 val = 0.9684  (21.5s)
+  Steepest iter 1: mejor vecino 0.9713 rechazado | mejor 0.9734
+    [HC-steepest] lr=3.1e-04|do=0.47|f=16|b=128  ->  F1 val = 0.9700  (25.4s)
+    [HC-steepest] lr=1.6e-03|do=0.57|f=16|b=128  ->  F1 val = 0.9701  (16.4s)
+    [HC-steepest] lr=1.8e-03|do=0.48|f=12|b=64  ->  F1 val = 0.9711  (15.2s)
+  Steepest iter 2: mejor vecino 0.9711 rechazado | mejor 0.9734
+    [HC-steepest] lr=5.3e-04|do=0.55|f=16|b=128  ->  F1 val = 0.9718  (14.6s)
+    [HC-steepest] lr=7.4e-04|do=0.51|f=16|b=128  ->  F1 val = 0.9696  (14.6s)
+    [HC-steepest] lr=1.4e-03|do=0.44|f=16|b=128  ->  F1 val = 0.9745  (16.9s)
+  Steepest iter 3: mejor vecino 0.9745 ACEPTADO | mejor 0.9745
+    [HC-steepest] lr=6.0e-04|do=0.48|f=16|b=128  ->  F1 val = 0.9738  (16.5s)
+    [HC-steepest] lr=1.9e-03|do=0.48|f=16|b=128  ->  F1 val = 0.9703  (15.3s)
+    [HC-steepest] lr=1.0e-03|do=0.43|f=12|b=64  ->  F1 val = 0.9745  (14.3s)
+  Steepest iter 4: mejor vecino 0.9745 rechazado | mejor 0.9745
+=== Estrategia evolutiva (3+6) ===
+    [ES] lr=5.3e-04|do=0.46|f=16|b=128  ->  F1 val = 0.9739  (24.0s)
+    [ES] lr=2.1e-03|do=0.11|f=24|b=256  ->  F1 val = 0.9696  (19.2s)
+  Gen 0: mejor 0.9739  promedio 0.9723
+    [ES] lr=1.0e-04|do=0.47|f=16|b=256  ->  F1 val = 0.9608  (14.4s)
+    [ES] lr=2.4e-03|do=0.62|f=24|b=128  ->  F1 val = 0.9681  (18.4s)
+    [ES] lr=2.5e-04|do=0.60|f=32|b=128  ->  F1 val = 0.9719  (44.6s)
+    [ES] lr=8.9e-04|do=0.63|f=32|b=256  ->  F1 val = 0.9690  (42.6s)
+    [ES] lr=5.6e-03|do=0.25|f=32|b=128  ->  F1 val = 0.9694  (42.6s)
+    [ES] lr=6.6e-03|do=0.13|f=32|b=256  ->  F1 val = 0.9519  (42.2s)
+  Gen 1: mejor 0.9739  promedio padres 0.9731  promedio hijos 0.9652
+    [ES] lr=4.4e-04|do=0.70|f=24|b=256  ->  F1 val = 0.9669  (19.7s)
+    [ES] lr=1.0e-04|do=0.61|f=32|b=256  ->  F1 val = 0.9645  (41.6s)
+    [ES] lr=5.6e-04|do=0.66|f=24|b=128  ->  F1 val = 0.9712  (20.2s)
+    [ES] lr=9.3e-04|do=0.60|f=24|b=128  ->  F1 val = 0.9730  (20.1s)
+    [ES] lr=7.1e-04|do=0.67|f=16|b=128  ->  F1 val = 0.9703  (14.5s)
+    [ES] lr=2.2e-04|do=0.38|f=16|b=128  ->  F1 val = 0.9695  (14.7s)
+  Gen 2: mejor 0.9739  promedio padres 0.9735  promedio hijos 0.9693
+    [ES] lr=1.5e-04|do=0.23|f=16|b=128  ->  F1 val = 0.9691  (15.0s)
+    [ES] lr=3.1e-04|do=0.70|f=24|b=256  ->  F1 val = 0.9690  (19.9s)
+    [ES] lr=1.0e-04|do=0.70|f=32|b=128  ->  F1 val = 0.9677  (42.5s)
+    [ES] lr=1.3e-04|do=0.63|f=16|b=256  ->  F1 val = 0.9609  (14.0s)
+    [ES] lr=7.1e-04|do=0.47|f=16|b=128  ->  F1 val = 0.9736  (14.4s)
+    [ES] lr=6.4e-04|do=0.49|f=8|b=128  ->  F1 val = 0.9658  (8.4s)
+  Gen 3: mejor 0.9739  promedio padres 0.9736  promedio hijos 0.9677
+    [ES] lr=1.1e-03|do=0.30|f=24|b=256  ->  F1 val = 0.9686  (19.6s)
+    [ES] lr=6.5e-03|do=0.29|f=16|b=64  ->  F1 val = 0.9702  (15.6s)
+    [ES] lr=7.7e-04|do=0.48|f=32|b=256  ->  F1 val = 0.9697  (42.3s)
+    [ES] lr=5.1e-04|do=0.70|f=12|b=256  ->  F1 val = 0.9636  (10.2s)
+    [ES] lr=6.5e-03|do=0.55|f=16|b=128  ->  F1 val = 0.9684  (14.5s)
+    [ES] lr=2.5e-04|do=0.42|f=16|b=128  ->  F1 val = 0.9713  (14.5s)
+  Gen 4: mejor 0.9739  promedio padres 0.9736  promedio hijos 0.9686
+                    metodo   f1_val       lr  dropout      filtros  tam_lote  evaluaciones_unicas
+             Hill Climbing 0.976574 0.000846    0.298 [16, 32, 64]       128                   13
+        HC steepest ascent 0.974521 0.001370    0.440 [16, 32, 64]       128                   13
+Estrategia evolutiva (μ+λ) 0.973947 0.000532    0.456 [16, 32, 64]       128                   27
+
+Mejor configuración (Hill Climbing): {'lr': 0.000846, 'dropout': np.float64(0.298), 'filtros': [16, 32, 64], 'tam_lote': 128}  F1 val = 0.9766

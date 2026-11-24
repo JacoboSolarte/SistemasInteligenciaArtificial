@@ -1,0 +1,2 @@
+experimento,optimizador,f1_val,epocas,parametros,tiempo_s,test_accuracy,test_precision,test_recall,test_f1
+general,adam,0.9956215870517047,20,548482,706.9978032112122,0.995442023541197,0.9962583694367861,0.9947891062825681,0.9955231957494958

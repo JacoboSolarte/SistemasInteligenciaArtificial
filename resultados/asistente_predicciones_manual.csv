@@ -1,0 +1,41 @@
+texto,intencion,prediccion,confianza
+oiga y si hay campito pa la moto o qué,disponibilidad,fuera_de_tema,0.7241179943084717
+tengo chance de meter el carro?,disponibilidad,disponibilidad,0.6012734770774841
+mi amor vengo en camino hay puesto??,disponibilidad,disponibilidad,0.700319766998291
+"necesito estacionar urgente, queda algo?",disponibilidad,disponibilidad,0.9772695302963257
+ya no cabe nadie cierto,disponibilidad,disponibilidad,0.9160299301147461
+qué tan lleno anda eso hoy,porcentaje,porcentaje,0.915121853351593
+cuánto % está ocupado,porcentaje,porcentaje,0.9715577960014343
+el parqueo ya se llenó del todo o va por la mitad,porcentaje,porcentaje,0.5822741985321045
+ocupacion porcentual del lote porfa,porcentaje,resumen,0.7760113477706909
+está muy congestionado o qué,porcentaje,porcentaje,0.9682344198226929
+en qué celda me puedo meter,ubicacion,ubicacion,0.9646031856536865
+cuáles números están vacíos,ubicacion,ubicacion,0.9805399179458618
+"dime exactamente dónde hay sitio, qué fila",ubicacion,ubicacion,0.9497750401496887
+recomiéndame un puesto para dejar la camioneta,ubicacion,disponibilidad,0.5622871518135071
+dónde está desocupado,ubicacion,ubicacion,0.9708238244056702
+cuántos vehículos contaste en total,conteo_ocupados,conteo_ocupados,0.9737136363983154
+cuántas plazas tienen carro encima,conteo_ocupados,disponibilidad,0.5517020225524902
+cuantos autos hay estacionados en este momento,conteo_ocupados,conteo_ocupados,0.8456324338912964
+número de espacios ocupados?,conteo_ocupados,conteo_ocupados,0.9532775282859802
+cuántos carros parqueados ves en la foto,conteo_ocupados,conteo_ocupados,0.9649003148078918
+qué tan confiable es lo que me dices,confianza,confianza,0.9641039967536926
+"seguro que eso está bien, no te equivocas?",confianza,confianza,0.9329690337181091
+cuál es la confianza de la red,confianza,confianza,0.9407400488853455
+hay espacios donde el modelo tenga dudas,confianza,ubicacion,0.5129117965698242
+qué tan preciso fue el análisis de la imagen,confianza,porcentaje,0.7015228867530823
+hazme un informe completo del parqueadero,resumen,resumen,0.9801926016807556
+dame el resumen de todo,resumen,resumen,0.9759427905082703
+cómo quedó el análisis,resumen,resumen,0.5784338712692261
+cuál es el estado del parqueadero ahora,resumen,resumen,0.9756239652633667
+dame un reporte rápido,resumen,resumen,0.9845054745674133
+holaaa,saludo,saludo,0.6005666255950928
+buenas tardes parce,saludo,saludo,0.9850558042526245
+quiubo pues,saludo,saludo,0.9043962359428406
+hola qué más cómo vas,saludo,saludo,0.9481580853462219
+chao gracias por la ayuda,despedida,despedida,0.9575772285461426
+listo eso es todo nos vemos,despedida,despedida,0.9809849262237549
+qué equipo ganó la liga,fuera_de_tema,fuera_de_tema,0.6708767414093018
+cómo preparo un café,fuera_de_tema,fuera_de_tema,0.7638182044029236
+quién escribió cien años de soledad,fuera_de_tema,fuera_de_tema,0.9655606150627136
+cuánto es la raíz de 144,fuera_de_tema,fuera_de_tema,0.9854540824890137

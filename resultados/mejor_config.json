@@ -1,0 +1,14 @@
+{
+  "metodo": "Hill Climbing",
+  "config": {
+    "lr": 0.000846,
+    "dropout": 0.298,
+    "filtros": [
+      16,
+      32,
+      64
+    ],
+    "tam_lote": 128
+  },
+  "f1_val": 0.9765739385065886
+}

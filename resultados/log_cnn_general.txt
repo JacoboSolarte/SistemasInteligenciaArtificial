@@ -1,0 +1,53 @@
+Dispositivo: cuda
+{'train': 93169, 'val': 19965, 'test': 19965}
+
+=== Entrenando CNN (general) con SGD  lr=0.01 ===
+  época  1 | loss 0.1137 acc 0.9591 | val loss 0.0536 acc 0.9822 | lr 1.0e-02 | 99.3s
+  época  2 | loss 0.0739 acc 0.9752 | val loss 0.0474 acc 0.9840 | lr 1.0e-02 | 117.6s
+  época  3 | loss 0.0627 acc 0.9789 | val loss 0.0410 acc 0.9868 | lr 1.0e-02 | 80.5s
+  época  4 | loss 0.0560 acc 0.9818 | val loss 0.0425 acc 0.9846 | lr 1.0e-02 | 52.8s
+  época  5 | loss 0.0520 acc 0.9830 | val loss 0.0374 acc 0.9869 | lr 1.0e-02 | 88.0s
+  época  6 | loss 0.0486 acc 0.9842 | val loss 0.0320 acc 0.9901 | lr 1.0e-02 | 101.1s
+  época  7 | loss 0.0451 acc 0.9857 | val loss 0.0301 acc 0.9907 | lr 1.0e-02 | 97.2s
+  época  8 | loss 0.0423 acc 0.9860 | val loss 0.0287 acc 0.9910 | lr 1.0e-02 | 85.4s
+  época  9 | loss 0.0420 acc 0.9870 | val loss 0.0248 acc 0.9922 | lr 1.0e-02 | 69.4s
+  época 10 | loss 0.0386 acc 0.9877 | val loss 0.0259 acc 0.9916 | lr 1.0e-02 | 50.7s
+  época 11 | loss 0.0364 acc 0.9882 | val loss 0.0238 acc 0.9927 | lr 1.0e-02 | 39.9s
+  época 12 | loss 0.0353 acc 0.9891 | val loss 0.0211 acc 0.9936 | lr 1.0e-02 | 43.9s
+  época 13 | loss 0.0349 acc 0.9893 | val loss 0.0219 acc 0.9930 | lr 1.0e-02 | 41.6s
+  época 14 | loss 0.0331 acc 0.9898 | val loss 0.0208 acc 0.9932 | lr 1.0e-02 | 41.8s
+  época 15 | loss 0.0320 acc 0.9900 | val loss 0.0185 acc 0.9943 | lr 1.0e-02 | 43.5s
+  época 16 | loss 0.0299 acc 0.9908 | val loss 0.0204 acc 0.9938 | lr 1.0e-02 | 44.7s
+  época 17 | loss 0.0299 acc 0.9903 | val loss 0.0180 acc 0.9941 | lr 1.0e-02 | 52.3s
+  época 18 | loss 0.0293 acc 0.9907 | val loss 0.0178 acc 0.9944 | lr 1.0e-02 | 126.7s
+  época 19 | loss 0.0283 acc 0.9911 | val loss 0.0197 acc 0.9937 | lr 1.0e-02 | 100.2s
+  época 20 | loss 0.0271 acc 0.9917 | val loss 0.0195 acc 0.9937 | lr 1.0e-02 | 124.9s
+  TEST general: accuracy=0.9936  precision=0.9965  recall=0.9909  f1=0.9937
+
+=== Entrenando CNN (general) con ADAM  lr=0.001 ===
+  época  1 | loss 0.1161 acc 0.9594 | val loss 0.0566 acc 0.9819 | lr 1.0e-03 | 98.3s
+  época  2 | loss 0.0727 acc 0.9760 | val loss 0.0468 acc 0.9836 | lr 1.0e-03 | 89.5s
+  época  3 | loss 0.0613 acc 0.9794 | val loss 0.0380 acc 0.9877 | lr 1.0e-03 | 78.6s
+  época  4 | loss 0.0568 acc 0.9816 | val loss 0.0363 acc 0.9878 | lr 1.0e-03 | 47.6s
+  época  5 | loss 0.0523 acc 0.9835 | val loss 0.0344 acc 0.9874 | lr 1.0e-03 | 43.5s
+  época  6 | loss 0.0476 acc 0.9846 | val loss 0.0307 acc 0.9899 | lr 1.0e-03 | 42.9s
+  época  7 | loss 0.0461 acc 0.9855 | val loss 0.0284 acc 0.9908 | lr 1.0e-03 | 44.6s
+  época  8 | loss 0.0429 acc 0.9860 | val loss 0.0312 acc 0.9894 | lr 1.0e-03 | 50.1s
+  época  9 | loss 0.0428 acc 0.9870 | val loss 0.0236 acc 0.9927 | lr 1.0e-03 | 42.4s
+  época 10 | loss 0.0402 acc 0.9876 | val loss 0.0305 acc 0.9905 | lr 1.0e-03 | 41.8s
+  época 11 | loss 0.0383 acc 0.9880 | val loss 0.0248 acc 0.9928 | lr 1.0e-03 | 40.9s
+  época 12 | loss 0.0380 acc 0.9882 | val loss 0.0245 acc 0.9932 | lr 1.0e-03 | 42.1s
+  época 13 | loss 0.0307 acc 0.9909 | val loss 0.0191 acc 0.9948 | lr 5.0e-04 | 49.4s
+  época 14 | loss 0.0288 acc 0.9912 | val loss 0.0186 acc 0.9944 | lr 5.0e-04 | 49.6s
+  época 15 | loss 0.0274 acc 0.9917 | val loss 0.0190 acc 0.9949 | lr 5.0e-04 | 44.1s
+  época 16 | loss 0.0266 acc 0.9919 | val loss 0.0194 acc 0.9944 | lr 5.0e-04 | 49.5s
+  época 17 | loss 0.0266 acc 0.9920 | val loss 0.0161 acc 0.9951 | lr 5.0e-04 | 52.1s
+  época 18 | loss 0.0255 acc 0.9921 | val loss 0.0160 acc 0.9953 | lr 5.0e-04 | 53.3s
+  época 19 | loss 0.0250 acc 0.9923 | val loss 0.0200 acc 0.9929 | lr 5.0e-04 | 126.4s
+  época 20 | loss 0.0244 acc 0.9928 | val loss 0.0171 acc 0.9949 | lr 5.0e-04 | 104.4s
+  TEST general: accuracy=0.9943  precision=0.9975  recall=0.9913  f1=0.9944
+
+Modelo de producción: pesos/cnn_espacios.pth  <- cnn_general_adam.pth
+experimento optimizador   f1_val  epocas  parametros    tiempo_s  test_accuracy  test_precision  test_recall  test_f1
+    general         sgd 0.994478      20      548482 1501.595608       0.993589        0.996539     0.990856 0.993690
+    general        adam 0.995371      20      548482 1190.853205       0.994340        0.997527     0.991348 0.994428

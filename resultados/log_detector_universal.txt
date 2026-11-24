@@ -1,0 +1,35 @@
+train: 4427 imágenes | val (subconjunto): 199
+Parámetros: 4,477,731
+C:\Users\jacob\OneDrive\Desktop\Octavo\IA\ProyectoFinal\parqueadero-ia\entrenamiento\entrenar_detector_universal.py:220: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+época  1 | pérdida 4.803 (calor 3.005) | val mAP50 0.067 | 189s
+época  2 | pérdida 3.097 (calor 1.934) | val mAP50 0.197 | 142s
+época  3 | pérdida 2.659 (calor 1.666) | val mAP50 0.275 | 142s
+época  4 | pérdida 2.299 (calor 1.423) | val mAP50 0.304 | 143s
+época  5 | pérdida 2.075 (calor 1.266) | val mAP50 0.453 | 143s
+época  6 | pérdida 1.934 (calor 1.169) | val mAP50 0.511 | 143s
+época  7 | pérdida 1.871 (calor 1.116) | val mAP50 0.577 | 142s
+época  8 | pérdida 1.715 (calor 1.000) | val mAP50 0.542 | 143s
+época  9 | pérdida 1.677 (calor 0.975) | val mAP50 0.598 | 143s
+época 10 | pérdida 1.642 (calor 0.956) | val mAP50 0.594 | 142s
+época 11 | pérdida 1.539 (calor 0.875) | val mAP50 0.614 | 141s
+época 12 | pérdida 1.470 (calor 0.824) | val mAP50 0.603 | 141s
+época 13 | pérdida 1.450 (calor 0.814) | val mAP50 0.685 | 141s
+época 14 | pérdida 1.412 (calor 0.790) | val mAP50 0.693 | 141s
+época 15 | pérdida 1.382 (calor 0.766) | val mAP50 0.688 | 142s
+época 16 | pérdida 1.311 (calor 0.715) | val mAP50 0.689 | 141s
+época 17 | pérdida 1.290 (calor 0.703) | val mAP50 0.719 | 142s
+época 18 | pérdida 1.239 (calor 0.666) | val mAP50 0.738 | 142s
+época 19 | pérdida 1.223 (calor 0.659) | val mAP50 0.733 | 141s
+época 20 | pérdida 1.208 (calor 0.644) | val mAP50 0.763 | 142s
+época 21 | pérdida 1.197 (calor 0.641) | val mAP50 0.750 | 142s
+época 22 | pérdida 1.152 (calor 0.608) | val mAP50 0.767 | 141s
+época 23 | pérdida 1.134 (calor 0.596) | val mAP50 0.796 | 142s
+época 24 | pérdida 1.102 (calor 0.573) | val mAP50 0.800 | 142s
+época 25 | pérdida 1.112 (calor 0.586) | val mAP50 0.785 | 142s
+época 26 | pérdida 1.098 (calor 0.575) | val mAP50 0.799 | 142s
+época 27 | pérdida 1.069 (calor 0.553) | val mAP50 0.800 | 141s
+época 28 | pérdida 1.087 (calor 0.563) | val mAP50 0.790 | 141s
+época 29 | pérdida 1.055 (calor 0.543) | val mAP50 0.800 | 141s
+época 30 | pérdida 1.076 (calor 0.558) | val mAP50 0.797 | 142s
+Mejor val mAP50: 0.8001

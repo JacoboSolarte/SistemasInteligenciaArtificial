@@ -1,0 +1,158 @@
+{
+  "hill_climbing": {
+    "mejor": {
+      "lr": 0.000846,
+      "dropout": 0.298,
+      "filtros": [
+        16,
+        32,
+        64
+      ],
+      "tam_lote": 128
+    },
+    "f1": 0.9765739385065886,
+    "historia": [
+      {
+        "iteracion": 0,
+        "f1_actual": 0.9733951671955089,
+        "f1_candidato": 0.9733951671955089,
+        "aceptado": true,
+        "config": "lr=1.0e-03|do=0.50|f=16|b=128"
+      },
+      {
+        "iteracion": 1,
+        "f1_actual": 0.9740196078431372,
+        "f1_candidato": 0.9740196078431372,
+        "aceptado": true,
+        "config": "lr=1.2e-03|do=0.41|f=16|b=128"
+      },
+      {
+        "iteracion": 2,
+        "f1_actual": 0.9740196078431372,
+        "f1_candidato": 0.9712755598831548,
+        "aceptado": false,
+        "config": "lr=3.2e-04|do=0.29|f=16|b=128"
+      },
+      {
+        "iteracion": 3,
+        "f1_actual": 0.9740196078431372,
+        "f1_candidato": 0.9717624148003895,
+        "aceptado": false,
+        "config": "lr=1.2e-03|do=0.33|f=24|b=128"
+      },
+      {
+        "iteracion": 4,
+        "f1_actual": 0.9740196078431372,
+        "f1_candidato": 0.9691025012260912,
+        "aceptado": false,
+        "config": "lr=1.3e-03|do=0.51|f=16|b=128"
+      },
+      {
+        "iteracion": 5,
+        "f1_actual": 0.9740196078431372,
+        "f1_candidato": 0.969667556418345,
+        "aceptado": false,
+        "config": "lr=1.6e-03|do=0.32|f=24|b=128"
+      },
+      {
+        "iteracion": 6,
+        "f1_actual": 0.9740196078431372,
+        "f1_candidato": 0.9718344354641195,
+        "aceptado": false,
+        "config": "lr=1.1e-03|do=0.34|f=24|b=128"
+      },
+      {
+        "iteracion": 7,
+        "f1_actual": 0.9742836149889786,
+        "f1_candidato": 0.9742836149889786,
+        "aceptado": true,
+        "config": "lr=9.2e-04|do=0.37|f=16|b=128"
+      },
+      {
+        "iteracion": 8,
+        "f1_actual": 0.9742836149889786,
+        "f1_candidato": 0.9703739679456047,
+        "aceptado": false,
+        "config": "lr=1.2e-03|do=0.41|f=24|b=128"
+      },
+      {
+        "iteracion": 9,
+        "f1_actual": 0.9742836149889786,
+        "f1_candidato": 0.9698149951314509,
+        "aceptado": false,
+        "config": "lr=6.4e-04|do=0.30|f=16|b=256"
+      },
+      {
+        "iteracion": 10,
+        "f1_actual": 0.9765739385065886,
+        "f1_candidato": 0.9765739385065886,
+        "aceptado": true,
+        "config": "lr=8.5e-04|do=0.30|f=16|b=128"
+      },
+      {
+        "iteracion": 11,
+        "f1_actual": 0.9765739385065886,
+        "f1_candidato": 0.9738066095471236,
+        "aceptado": false,
+        "config": "lr=1.4e-03|do=0.35|f=16|b=128"
+      },
+      {
+        "iteracion": 12,
+        "f1_actual": 0.9765739385065886,
+        "f1_candidato": 0.9741589468551926,
+        "aceptado": false,
+        "config": "lr=9.2e-04|do=0.32|f=24|b=128"
+      }
+    ]
+  },
+  "steepest_ascent": {
+    "mejor": {
+      "lr": 0.00137,
+      "dropout": 0.44,
+      "filtros": [
+        16,
+        32,
+        64
+      ],
+      "tam_lote": 128
+    },
+    "f1": 0.9745207473914098,
+    "historia": [
+      {
+        "iteracion": 0,
+        "f1_actual": 0.9733951671955089,
+        "f1_candidato": 0.9733951671955089,
+        "aceptado": true,
+        "config": "lr=1.0e-03|do=0.50|f=16|b=128"
+      },
+      {
+        "iteracion": 1,
+        "f1_actual": 0.9733951671955089,
+        "f1_candidato": 0.9713035019455253,
+        "aceptado": false,
+        "config": "lr=1.6e-03|do=0.51|f=16|b=128"
+      },
+      {
+        "iteracion": 2,
+        "f1_actual": 0.9733951671955089,
+        "f1_candidato": 0.971126082771896,
+        "aceptado": false,
+        "config": "lr=1.8e-03|do=0.48|f=12|b=64"
+      },
+      {
+        "iteracion": 3,
+        "f1_actual": 0.9745207473914098,
+        "f1_candidato": 0.9745207473914098,
+        "aceptado": true,
+        "config": "lr=1.4e-03|do=0.44|f=16|b=128"
+      },
+      {
+        "iteracion": 4,
+        "f1_actual": 0.9745207473914098,
+        "f1_candidato": 0.9745207473914098,
+        "aceptado": false,
+        "config": "lr=1.0e-03|do=0.43|f=12|b=64"
+      }
+    ]
+  }
+}

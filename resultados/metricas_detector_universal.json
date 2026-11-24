@@ -1,0 +1,9 @@
+{
+  "mAP50_medio": 0.7842296083121759,
+  "mAP50_por_clase": {
+    "libre": 0.7245,
+    "ocupado": 0.8027,
+    "vehiculo": 0.8196
+  },
+  "error_ocupacion_pp_medio": 13.77543994054357
+}

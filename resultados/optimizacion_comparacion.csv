@@ -1,0 +1,4 @@
+metodo,f1_val,lr,dropout,filtros,tam_lote,evaluaciones_unicas
+Hill Climbing,0.9765739385065886,0.000846,0.298,"[16, 32, 64]",128,13
+HC steepest ascent,0.9745207473914098,0.00137,0.44,"[16, 32, 64]",128,13
+Estrategia evolutiva (μ+λ),0.9739469198928659,0.000532,0.456,"[16, 32, 64]",128,27

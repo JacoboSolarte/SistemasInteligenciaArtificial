@@ -1,0 +1,811 @@
+texto,intencion,prediccion,confianza
+"¿una pregunta, dónde queda la capital de italia?",fuera_de_tema,fuera_de_tema,0.8853375911712646
+¿dime qué significca el mundial porfa?,fuera_de_tema,fuera_de_tema,0.9588416218757629
+hili,saludo,saludo,0.9561910629272461
+me dices existe algun sitios libre hoy,disponibilidad,disponibilidad,0.8981307744979858
+"hola, tasa de ocupación pues",porcentaje,porcentaje,0.9729462265968323
+me peudes decir cómo se hace una arepa ahora?,fuera_de_tema,fuera_de_tema,0.711639404296875
+¿que tan saturado esta el parqueo?,porcentaje,porcentaje,0.9741907119750977
+puedo parquear pues,disponibilidad,disponibilidad,0.9671224355697632
+¿necesito saber tengo donde dejar el autos ahorita?,disponibilidad,disponibilidad,0.9717444181442261
+qué confianza tiene el modelo,confianza,confianza,0.9759508371353149
+bueno salir,despedida,despedida,0.9787744283676147
+que hubi!,saludo,fuera_de_tema,0.584135890007019
+Quisiera saber hay sitio o está lleno ahora?,disponibilidad,disponibilidad,0.8446836471557617
+necesito saber dame los datos generales ahora,resumen,resumen,0.984281599521637
+¿quisiera saber cuantps libres hay?,disponibilidad,confianza,0.5755341649055481
+¿ME DICES DISPONIBILIDAD DE CELDAS POR FVAOR?,disponibilidad,disponibilidad,0.9749665260314941
+buebas tardse,saludo,saludo,0.9205013513565063
+dime qué celdas sirven ahora?,ubicacion,ubicacion,0.9845759868621826
+ESTÁ A REVENTAR ESTO?,porcentaje,porcentaje,0.9325935244560242
+En qué porcentaje etá el lote?,porcentaje,porcentaje,0.9814265370368958
+y que paso en el analisis,resumen,resumen,0.9855109453201294
+necesito saber es correcto el analisis gracias?,confianza,confianza,0.9806160926818848
+Cuales lugares estan disponible ahorita?,ubicacion,ubicacion,0.9823887944221497
+HAY CUPO HOY,disponibilidad,disponibilidad,0.9864039421081543
+"disculpa, informe del analisis hoy",resumen,resumen,0.9857931733131409
+¿como esta de ocupado el parqueo gracias?,porcentaje,porcentaje,0.9490692615509033
+¿explícame biología hoy?,fuera_de_tema,fuera_de_tema,0.9609766006469727
+¿necesito saber háblame de política por favor?,fuera_de_tema,fuera_de_tema,0.9894980192184448
+dime qué % de ocupación tiene,porcentaje,porcentaje,0.978411853313446
+"Una prgunta, cuántos vehículo contaste hoy",conteo_ocupados,conteo_ocupados,0.9719165563583374
+¿me dices hay plazas con dudas hoy?,confianza,confianza,0.9841722846031189
+Quiuvo,saludo,saludo,0.5025296211242676
+¿quisiera saber tego donde dejar el coches en este momento?,disponibilidad,disponibilidad,0.6235170364379883
+que margwn de error tiene ahora,confianza,confianza,0.9614830613136292
+quisiera saber cantidad de carros en el estacionamiento pues,conteo_ocupados,conteo_ocupados,0.9812745451927185
+bueno listo gracias bot,despedida,despedida,0.9861874580383301
+"disculpa, cuál es la confianza ahorita",confianza,confianza,0.8847374320030212
+quisiera saber va por la mitad o que?,porcentaje,porcentaje,0.9819988012313843
+cuántos puestos tienen auto ya?,conteo_ocupados,conteo_ocupados,0.9616388082504272
+"una pregunta, explícame un chiste en este momento?",fuera_de_tema,fuera_de_tema,0.9916356801986694
+QUISIERA SABER CUALES SON LOS VACIOS?,ubicacion,ubicacion,0.9863873720169067
+¿hay campo?,disponibilidad,disponibilidad,0.9757702350616455
+"una pregunta, dame un resumen pues",resumen,resumen,0.9829011559486389
+quisiera saber cuátos cupos hay,disponibilidad,disponibilidad,0.8259278535842896
+necesito saber cuentame como esta todo,resumen,resumen,0.9782337546348572
+por favor hay cupo desocupados en este momento,disponibilidad,disponibilidad,0.9692012071609497
+holla como estas parce,saludo,saludo,0.9804356098175049
+"¿una pregunta, cuanto vael la bolsa de valores?",fuera_de_tema,fuera_de_tema,0.7208417057991028
+buenos días parce,saludo,saludo,0.9836506247520447
+por que lado hay cupos porfa,ubicacion,ubicacion,0.9533529877662659
+hassta luego gracias,despedida,despedida,0.8653205037117004
+Por favor todavía cabe alguien ya?,disponibilidad,disponibilidad,0.9899887442588806
+muchas gracias,despedida,despedida,0.9652379751205444
+¿quisiera saber cual es la probanilidad de acierto ya?,confianza,confianza,0.5023130178451538
+listo nos pillamos!,despedida,despedida,0.9842525124549866
+parce conteo de camionetas ahora,conteo_ocupados,conteo_ocupados,0.9474193453788757
+"¿disculpa, cuál es el porcentaje de ocupación en este momento?",porcentaje,porcentaje,0.9851853847503662
+mucho gusti!,saludo,saludo,0.46882694959640503
+listo sair amgio,despedida,despedida,0.9653038382530212
+Quisiera saber ocupacion actual gracias,porcentaje,porcentaje,0.9793480634689331
+necesito saber como va el parking?,resumen,resumen,0.9411088824272156
+buennos días!,saludo,saludo,0.9561386704444885
+bueno existe algun espacios desocupado,disponibilidad,disponibilidad,0.9898321628570557
+ok hatsa luego parce,despedida,despedida,0.967121958732605
+¿qué fila tiene lugares disponible gracias?,ubicacion,ubicacion,0.965912938117981
+Oye dónde hay cupo en este momento?,ubicacion,ubicacion,0.9846134185791016
+hoal que tal amigo,saludo,saludo,0.972217321395874
+oiga ids de cupo desocupados gracias?,ubicacion,ubicacion,0.9191224575042725
+cuántos vehículo hay en esto gracias?,conteo_ocupados,conteo_ocupados,0.9603089690208435
+¿hey cabe otro auto?,disponibilidad,disponibilidad,0.9731730818748474
+"Una pergunta, qué tan congestionado está pues?",porcentaje,porcentaje,0.9533990025520325
+hasta luego gracias,despedida,despedida,0.9802841544151306
+bueno ubicación de los lugares desocupados ahora,ubicacion,ubicacion,0.9717682600021362
+¿bueeno cuántos autos contaste?,conteo_ocupados,conteo_ocupados,0.9757639765739441
+oye qué confianza tiene el modelo,confianza,confianza,0.9782508611679077
+holioi parce,saludo,saludo,0.9806644916534424
+¿hay celdas libres gracias?,disponibilidad,disponibilidad,0.9483457207679749
+dame un balance hoy,resumen,resumen,0.9582844972610474
+parce estás seguro?,confianza,confianza,0.9691746830940247
+¿dime qué tan ocupado está esto?,porcentaje,porcentaje,0.9791958332061768
+hello pace,saludo,saludo,0.953172504901886
+¿me diices cuenta los auto porfa?,conteo_ocupados,conteo_ocupados,0.9136587381362915
+ya no necesito nadaa!,despedida,despedida,0.9708647131919861
+¿pro favor qué tanto está lleno ya?,porcentaje,porcentaje,0.9665932059288025
+Parce hay puesto desocupado ahora,disponibilidad,disponibilidad,0.9606515169143677
+Cuánto porcentaje hay ocupado por favor?,porcentaje,porcentaje,0.9845063090324402
+quisiera saber dime cuál puedo usar ahora?,ubicacion,ubicacion,0.9892072677612305
+parce diime cuantos coche hay porfa?,conteo_ocupados,conteo_ocupados,0.9700908064842224
+"¿una pregunta, hay parqueadero dudosos gracias?",confianza,confianza,0.8545411229133606
+¿cuales son los disponibles pues?,ubicacion,ubicacion,0.9803693890571594
+¿por favor dónde estaciono porfa?,ubicacion,ubicacion,0.988807737827301
+bueno gracias cho!,despedida,despedida,0.9812393188476562
+cuenta los carros hoy?,conteo_ocupados,conteo_ocupados,0.9626767039299011
+bueno queda algo hoy,disponibilidad,disponibilidad,0.986885666847229
+identificadores de los espacio dusponibles ahora,ubicacion,ubicacion,0.9672794342041016
+necesito saber cuántos auto ves porfa?,conteo_ocupados,conteo_ocupados,0.952570378780365
+"disculpa, cuáles celdas están desocupado por favor",ubicacion,ubicacion,0.9873368144035339
+Quisiera saber cuántos celda tienen vehículos hoy,conteo_ocupados,conteo_ocupados,0.893916666507721
+¿qué tan ocupado está el parkiing hoy?,porcentaje,porcentaje,0.9791280627250671
+"discuulpa, dame los resultados ahora?",resumen,resumen,0.9846101999282837
+parce la cnn esta segura?,confianza,confianza,0.9670398235321045
+¿BUENO PARA QUÉ SIRVE UNA GALAXIA?,fuera_de_tema,fuera_de_tema,0.5089983344078064
+¿oiga porcentaje de celda ocupados pues?,porcentaje,porcentaje,0.9839080572128296
+Listo ya no necesito nada bot,despedida,despedida,0.9848708510398865
+y cuantos celda llenos hay por favor,conteo_ocupados,conteo_ocupados,0.7277716994285583
+buenas tarrdes amigo,saludo,saludo,0.9841485619544983
+bueno dónde puedo parquear por favor?,ubicacion,ubicacion,0.9312236309051514
+¿oiga qué significa la segunda guerra mundial?,fuera_de_tema,fuera_de_tema,0.9906406402587891
+oiga que tan copqdo esta ahorita,porcentaje,porcentaje,0.9753292798995972
+¿y dime cuántos nave hay por favor?,conteo_ocupados,conteo_ocupados,0.8538557291030884
+¿necesito saber cuántos cupos hay hoy?,disponibilidad,conteo_ocupados,0.6438723802566528
+parce cuanat gente parqueo pues,conteo_ocupados,conteo_ocupados,0.4193989932537079
+"hola, cuántos celda tienen coches en este momento?",conteo_ocupados,conteo_ocupados,0.9578216671943665
+quisiera saber cómo salió el análisis en este momento?,resumen,resumen,0.9646146297454834
+en cuanto va la ocupacion?,porcentaje,porcentaje,0.957107424736023
+me dices está muy lleno el estacionamiento ya?,porcentaje,porcentaje,0.6177513599395752
+dime se puede parquear pues,disponibilidad,disponibilidad,0.989564061164856
+"¿hola, el modelo se puede equivocar ya?",confianza,confianza,0.9826830625534058
+HOLIUI AMIGO,saludo,saludo,0.8671219348907471
+me ayudas con películas gracias,fuera_de_tema,fuera_de_tema,0.9920632243156433
+necesito saber me sirve ir para allá a parquear hoy?,disponibilidad,disponibilidad,0.989612877368927
+QUÉ TAN PRECISA ES LA DETECCIÓN EN ESTE MOMENTO?,confianza,confianza,0.982905387878418
+me dices qué tan lleno está la zona por favor,porcentaje,porcentaje,0.9722703099250793
+me puedes decir dame el porcentaje en este momento,porcentaje,porcentaje,0.9652124047279358
+quisiera saber cuántas plazas quedan pues?,disponibilidad,disponibilidad,0.9813821315765381
+mucho gusto amigo,saludo,saludo,0.9653977155685425
+quisiera sabeer para que sirve la vacuna por favor?,fuera_de_tema,fuera_de_tema,0.9389296770095825
+por favor hay hueco ahors?,disponibilidad,disponibilidad,0.9773555994033813
+oiga qué sabes de un chiste hoy?,fuera_de_tema,fuera_de_tema,0.9884775280952454
+"¿una pregunta, qué signifiica una galaxia porfa?",fuera_de_tema,fuera_de_tema,0.9239431023597717
+que tan precisa es la detecvion por favor,confianza,confianza,0.97765052318573
+"Hola, ocupación en porcentaje ya",porcentaje,porcentaje,0.9801385402679443
+parce cuántos camioneta ves,conteo_ocupados,conteo_ocupados,0.9561548233032227
+¿oye dame el porcentaje?,porcentaje,porcentaje,0.9763450026512146
+bueno chao parce,despedida,despedida,0.9811542630195618
+queda alog?,disponibilidad,disponibilidad,0.8099077939987183
+como va el lote por favor?,resumen,resumen,0.9502996802330017
+por favor qué confianza tiene el modelo gracias,confianza,confianza,0.9822689294815063
+perfecto gracias caho,despedida,despedida,0.9269528388977051
+¿quién es el mundial pues?,fuera_de_tema,fuera_de_tema,0.9870089888572693
+¿bueno está vacío o lleno gracias?,porcentaje,porcentaje,0.7386687397956848
+¿cual fue el resultado?,resumen,resumen,0.9862539768218994
+bueno que estes bien amigo,despedida,despedida,0.9745303392410278
+¿cuantos espacios usados hay?,conteo_ocupados,conteo_ocupados,0.8029597997665405
+bueno nos pillamos amigo,despedida,despedida,0.9821146726608276
+buens!,saludo,saludo,0.9733825325965881
+Oye qué tan seguro etsás gracias,confianza,confianza,0.9815194606781006
+NECESITO SABER ESTA MUY LLENO ESTO,porcentaje,porcentaje,0.6807072758674622
+bueno gracias chao,despedida,despedida,0.977798342704773
+oye explícame animales ahora?,fuera_de_tema,fuera_de_tema,0.9824789762496948
+me dices cuántos autos hay parqueados porfa?,conteo_ocupados,conteo_ocupados,0.9680145382881165
+"disculpa, la cnn esta segura en este momento?",confianza,confianza,0.9547631144523621
+ey qué más parce,saludo,saludo,0.9836860299110413
+¿bueno me ayudas con la selección?,fuera_de_tema,fuera_de_tema,0.9723122119903564
+y ya no hay espacio por favor,disponibilidad,disponibilidad,0.9832081198692322
+por favor porcentaje de sitios ocupados pues,porcentaje,porcentaje,0.9846652150154114
+¿cual esta vacio ya?,ubicacion,ubicacion,0.9857235550880432
+necesito saber cuanto falta para que se llene por favor,porcentaje,porcentaje,0.9819005131721497
+cuántos cupos hay ya,disponibilidad,conteo_ocupados,0.5929672718048096
+Epale,saludo,saludo,0.9842690229415894
+hola bot amigo,saludo,saludo,0.9685261249542236
+parce cuántas plazas quedan,disponibilidad,disponibilidad,0.9823663234710693
+"una pregunta, dame el estado general hoy",resumen,resumen,0.9823331236839294
+¿me puedes decir porcentaje de plaza ocupados ahora?,porcentaje,porcentaje,0.9850865602493286
+QUÉ ES UN NÚMERO PRIMO YA?,fuera_de_tema,fuera_de_tema,0.9834161996841431
+Y dame los resultads ya,resumen,resumen,0.9312387704849243
+cuantos craro hay adentro ahora?,conteo_ocupados,conteo_ocupados,0.8464901447296143
+dime qué proporción esrá ocupada pofa,porcentaje,porcentaje,0.8992871642112732
+tienen lugar desocupados en este momento?,disponibilidad,disponibilidad,0.9139623641967773
+por favor estas seguro de eso gracias,confianza,confianza,0.982545018196106
+hola que mas pues amigo,saludo,saludo,0.9798985719680786
+me dices muéstrame el resumen,resumen,resumen,0.9747949838638306
+¿me dices número de coches ahorita?,conteo_ocupados,conteo_ocupados,0.940285325050354
+holiii parce,saludo,saludo,0.965419590473175
+me puedes decir dónde estaciono ahorita?,ubicacion,ubicacion,0.9866804480552673
+"Disculpa, dónde hay cpo?",ubicacion,ubicacion,0.986564040184021
+"¿disculpa, hay algo libre gracias?",disponibilidad,disponibilidad,0.9864097237586975
+¿me dices que margen de error tiene en este momento?,confianza,confianza,0.9807901382446289
+"Una pregunta, sí hay espacio ahora",disponibilidad,disponibilidad,0.9683124423027039
+Por favor cuántos nave hay parqueados hoy,conteo_ocupados,conteo_ocupados,0.9406782984733582
+"¿disculpa, ya casi se llena porfa?",porcentaje,porcentaje,0.9793288707733154
+buenas noches prce,saludo,saludo,0.9606014490127563
+me puedes decir está muy lleno el parking ahorita?,porcentaje,disponibilidad,0.5810034871101379
+ok muchas gracias,despedida,despedida,0.9691555500030518
+gracias por todo prce,despedida,despedida,0.9464567303657532
+y qué tan saturado está el parqueadero?,porcentaje,porcentaje,0.9741715788841248
+oye seguro que está bien,confianza,confianza,0.9814037084579468
+hey qué detectaste en la imagen,resumen,resumen,0.9835935235023499
+me diices dame un informe rápido ya?,resumen,resumen,0.9786643981933594
+oye ocupación en porcentaje?,porcentaje,porcentaje,0.9826244711875916
+¿POR FAVOR HAZ UN REPORTE COMPLETO EN ESTE MOMENTO?,resumen,resumen,0.9850735068321228
+saludos pacer,saludo,saludo,0.9541270732879639
+¿dime quién sabe de política ya?,fuera_de_tema,fuera_de_tema,0.9899628758430481
+mucho guusto parce,saludo,saludo,0.6149882078170776
+hoal parce amigo,saludo,saludo,0.9387264847755432
+listo nos pillamos parce,despedida,despedida,0.9845237731933594
+hey hila,saludo,saludo,0.9610787630081177
+dame un balance,resumen,resumen,0.9586524963378906
+me dices qué tan acertado es el sistema pues?,confianza,confianza,0.9800640344619751
+"hola, en qué porcentaje está el parqueadero ya",porcentaje,porcentaje,0.9812062382698059
+hola bto!,saludo,saludo,0.9677183032035828
+¿infórmame del estado en este momento?,resumen,resumen,0.9834927320480347
+perfecto gracais chao,despedida,despedida,0.9712681770324707
+hey qué tan seguro es el algoritmo por fvaor?,confianza,confianza,0.9837976098060608
+mucho gudto,saludo,saludo,0.9510160088539124
+parce cuanto vale la inflacion gracias?,fuera_de_tema,fuera_de_tema,0.9043245911598206
+quisiera saber qué % de ocupación tiene,porcentaje,porcentaje,0.978935182094574
+¿y hay sitio o está lleno ahora?,disponibilidad,disponibilidad,0.8718062043190002
+parce dsme el estado general ahora,resumen,resumen,0.9785181283950806
+y qué tan acertado es el sistema pues,confianza,confianza,0.9824648499488831
+hay cupo o no en este momento?,disponibilidad,disponibilidad,0.9828718900680542
+¿NECESITO SABER QUÉ TAL ESTÁ EL PARQUEADERO PUES?,resumen,porcentaje,0.5488734245300293
+"una pregunta, conteo de coche por favor",conteo_ocupados,fuera_de_tema,0.7185873985290527
+que mas parec,saludo,saludo,0.9829373955726624
+indice de ocupacion de el estacionamiento ya?,porcentaje,porcentaje,0.9568816423416138
+me dices ocupación actual,porcentaje,porcentaje,0.9712772369384766
+me dices que numeros de puestos estan vacio,ubicacion,ubicacion,0.9717611074447632
+¿está muy lleno el parking porfa?,porcentaje,porcentaje,0.573078453540802
+me puedes decir cuántos parqueadero tienen autos en este momento?,conteo_ocupados,conteo_ocupados,0.950695276260376
+dime dame el porcentaje pues,porcentaje,porcentaje,0.9645216464996338
+¿me puedes decir esta vacio o lleno?,porcentaje,porcentaje,0.7059772610664368
+bueno quién sabe de la selección?,fuera_de_tema,fuera_de_tema,0.9870169758796692
+hey quen sabe de peliculas ahorita?,fuera_de_tema,fuera_de_tema,0.9691948294639587
+¿quisiera saber qué plaza me recomiendas hoy?,ubicacion,ubicacion,0.9758200645446777
+"disculpa, todavía hay cupo hoy",disponibilidad,disponibilidad,0.990607738494873
+hoola hola amigo,saludo,saludo,0.9625345468521118
+hoña como estas parce,saludo,saludo,0.9762688875198364
+burno hasta pronto,despedida,despedida,0.9665998816490173
+hay espacios o esta lleno ahora?,disponibilidad,disponibilidad,0.9303798675537109
+"disculpa, hay errores en la detección hoy?",confianza,confianza,0.9819199442863464
+y en qué porcentaje está esto ya,porcentaje,porcentaje,0.9794115424156189
+REPORTE GENERAL EN ESTE MOMENTO?,resumen,resumen,0.9830936193466187
+cuáles quedan vacíos ya?,ubicacion,ubicacion,0.9556645154953003
+"disculpa, qué tan fiable es ya?",confianza,confianza,0.9656466245651245
+"disculpa, dame el informe?",resumen,resumen,0.9511415362358093
+hey dime la ocupacion en % gracias?,porcentaje,porcentaje,0.953876793384552
+bueno le puedo creer al modelo en este momento?,confianza,confianza,0.9799456596374512
+¿me dices seguro que esta bien?,confianza,confianza,0.9813355207443237
+hey hoa,saludo,saludo,0.9440810680389404
+"¿una pregunta, dame toda la informacion ya?",resumen,resumen,0.9659892320632935
+¿cuentame sobre un libro por favor?,fuera_de_tema,fuera_de_tema,0.9835178852081299
+"¿disculpa, zmszotd neomezi snv ym?",fuera_de_tema,disponibilidad,0.8788900971412659
+buenos dis bot,saludo,saludo,0.9765602946281433
+ok hasta luego gracias bot,despedida,despedida,0.9847070574760437
+y cuántos coches están estacionados ahorita,conteo_ocupados,conteo_ocupados,0.977338433265686
+necesito saber total de nave parqueados?,conteo_ocupados,conteo_ocupados,0.9789166450500488
+¿bueno cuántos disponible hay?,disponibilidad,conteo_ocupados,0.7188348174095154
+Terminmos bot,despedida,despedida,0.8956949710845947
+hey cuántos carros hay ya?,conteo_ocupados,conteo_ocupados,0.9591030478477478
+oiga qué número de lugar uso ahorita,ubicacion,ubicacion,0.9449717998504639
+"hola, cuántos carro hay adenntro en este momento?",conteo_ocupados,conteo_ocupados,0.9340254664421082
+¿dime estado actual?,resumen,resumen,0.9757457375526428
+mucho gysto bot,saludo,saludo,0.9575632214546204
+"¿hola, índice de ocupación de el parqueadero?",porcentaje,porcentaje,0.9452167749404907
+por favor la cnn está segura?,confianza,confianza,0.9817172288894653
+por favor habrá espacio libre hoy,disponibilidad,disponibilidad,0.9352296590805054
+ok eso es todo,despedida,despedida,0.9664615392684937
+quisiera saber que sito estan libre pues?,ubicacion,ubicacion,0.985936164855957
+"hola, cuántos cupos quedan hoy?",disponibilidad,disponibilidad,0.9723381400108337
+qué cantidad de vehículos hay ya,conteo_ocupados,conteo_ocupados,0.9813145995140076
+me dices hay puestos dudosos hoy,confianza,confianza,0.9606375694274902
+dime tengo dónde dejar el naces ya,disponibilidad,disponibilidad,0.9127154350280762
+ok hasta mañana bot,despedida,despedida,0.984721839427948
+me puedes decir infórmame del estado gracias,resumen,resumen,0.9826213717460632
+parce se llenó o todavía hay ya,disponibilidad,disponibilidad,0.9691219329833984
+"hola, funcionó bien la detección graacias",confianza,confianza,0.9718577861785889
+Parce ubicacion de los stiios vacios hoy?,ubicacion,ubicacion,0.972553014755249
+"disculpa, cuántos autos quedaron ahorita",conteo_ocupados,conteo_ocupados,0.9789880514144897
+¿dime qué tan bien funcionó la red hoy?,confianza,confianza,0.9843877553939819
+me puedes decir hay chance de parquear hoy?,disponibilidad,disponibilidad,0.9830034971237183
+¿cuántos espacios se están usando gracias?,conteo_ocupados,conteo_ocupados,0.9528111815452576
+Me dices me sirve ir para allá a parquear pues?,disponibilidad,disponibilidad,0.9896786212921143
+dsme el informe pues,resumen,resumen,0.8098219633102417
+me dices qué tan seguro es el algoritmo?,confianza,confianza,0.9848100543022156
+"¿HOLA, CUÁNTOS NAVE HAY POR FAVOR?",conteo_ocupados,conteo_ocupados,0.8158002495765686
+listo me sirvió graciass!,despedida,despedida,0.9820798635482788
+listo me sirvió gracias!,despedida,despedida,0.9813382625579834
+"¿hola, hay algo desocupado?",disponibilidad,disponibilidad,0.9784415364265442
+Listo nos vemso bot,despedida,despedida,0.9866222739219666
+y número de camioneta,conteo_ocupados,conteo_ocupados,0.8201965689659119
+hey ubicación de los celda desocupado ahora,ubicacion,ubicacion,0.9864974617958069
+bueno mucjas gracias,despedida,despedida,0.8884312510490417
+HADTA MAÑANA!,despedida,saludo,0.9098649024963379
+beunas buenas amigo,saludo,saludo,0.98366779088974
+BUEN DÍA AMIOG,saludo,saludo,0.9550085663795471
+y dame un informe rápido gracias?,resumen,resumen,0.9768781661987305
+En qué parte hay plazas ahora?,ubicacion,ubicacion,0.9703543782234192
+¿hey hay espacio para estacionar en este momento?,disponibilidad,disponibilidad,0.9816778302192688
+"disculpa, hay cupo ya",disponibilidad,disponibilidad,0.9856572151184082
+oye qué sabes de un libro?,fuera_de_tema,fuera_de_tema,0.984509289264679
+¿me dices hay discrepancias pues?,confianza,confianza,0.9837876558303833
+¿oye la cnn está segura en este momento?,confianza,confianza,0.9249945282936096
+Listo muy amable choa,despedida,despedida,0.9806289672851562
+hey puedo entrar con el carro pues?,disponibilidad,disponibilidad,0.966292142868042
+oye alcano a encontrar parqueadero ahorita?,disponibilidad,disponibilidad,0.7660737037658691
+¿me puedes decir funcionó bien la detección por favor?,confianza,confianza,0.9818931818008423
+¿dime muéstrame los cupo libees ya?,ubicacion,resumen,0.7532017230987549
+y por qué lado hay celda ahora?,ubicacion,ubicacion,0.973581075668335
+ok hasta mañana,despedida,despedida,0.9844534993171692
+"¿hola, dónde queda la capital de italia ahora?",fuera_de_tema,fuera_de_tema,0.7980038523674011
+¿dime hay parqueadero o está lleno gracias?,disponibilidad,disponibilidad,0.9505587816238403
+¿parce puedo ir a parquear pues?,disponibilidad,disponibilidad,0.9882658123970032
+"HOLA, ESTÁ VACÍO O LLENO AHORITA",porcentaje,porcentaje,0.7801634669303894
+¿burno hay disponibilidad?,disponibilidad,disponibilidad,0.9780319929122925
+Hadta pronto,despedida,despedida,0.8048684597015381
+oiga ocupación actual hoy,porcentaje,porcentaje,0.9802979826927185
+Necesito saber quedan parqueadero vacios en el estacionamiento?,disponibilidad,disponibilidad,0.9718296527862549
+¿y cuántos plaza llenos hay pues?,conteo_ocupados,conteo_ocupados,0.8683315515518188
+cómo estás amigo,saludo,saludo,0.9811493158340454
+Oye cuentame como esta todo ahorita,resumen,resumen,0.978122889995575
+por favor conteo de coche en este momento?,conteo_ocupados,fuera_de_tema,0.8010984063148499
+COMO FUNCIONA EL INTERNET,fuera_de_tema,fuera_de_tema,0.9669809341430664
+oye qué tanto se ha llenado el parqueo,porcentaje,porcentaje,0.9809238910675049
+y qué números de espacio están desocupados ya,ubicacion,ubicacion,0.932481050491333
+"disculpa, en que porcentaje esta el parking",porcentaje,porcentaje,0.9824220538139343
+por qué existe el reguetón en este momento,fuera_de_tema,fuera_de_tema,0.8725836277008057
+TE PUEDES EQUIVOCAR AHORITA,confianza,confianza,0.9630666375160217
+necesito saber nivel de confianza gracias?,confianza,confianza,0.9686084389686584
+bueno cuántos sitios usados hay gracias,conteo_ocupados,conteo_ocupados,0.5917393565177917
+bueas buenaa!,saludo,saludo,0.9490154981613159
+¿hey dónde me parwueo hoy?,ubicacion,ubicacion,0.9309406280517578
+oiga qué tan congestionado está,porcentaje,porcentaje,0.9827255010604858
+qué opinas de la selección ahorita?,fuera_de_tema,fuera_de_tema,0.9918223023414612
+me puedes decir cuántos puesto tienen coches porfa,conteo_ocupados,conteo_ocupados,0.9681873917579651
+CUAL ES TU COLOR FAVORITO,fuera_de_tema,fuera_de_tema,0.9409297704696655
+hay puestos disponible hoy?,disponibilidad,disponibilidad,0.960857093334198
+esta medio vacio el estacionamiento?,porcentaje,porcentaje,0.9523507356643677
+oiga cuentame como esta todo en este momento?,resumen,resumen,0.9787530899047852
+y qué sitios están disponibles,ubicacion,ubicacion,0.9855617880821228
+Listo eso es tdo parce,despedida,despedida,0.8589021563529968
+"¿una pregunta, cantos habitantes tiene colombia por favor?",fuera_de_tema,disponibilidad,0.6891748905181885
+¿necesito saber cual me sirve para parquear hoy?,ubicacion,ubicacion,0.9866982698440552
+qué hay en la zona en este momento?,resumen,resumen,0.8266252875328064
+oiga qué cantidad de coche hay por favor,conteo_ocupados,conteo_ocupados,0.9632154703140259
+bueno gracias chao bot,despedida,despedida,0.9829146265983582
+bueno chaao gracias,despedida,despedida,0.9784971475601196
+Parce cuéntame todo del parqueadero por favor?,resumen,resumen,0.977288544178009
+bueno cuántos lugar están ocupados gracias,conteo_ocupados,conteo_ocupados,0.9759508371353149
+BIENAS NOCHES PARCE BOT,saludo,saludo,0.9714171886444092
+hola commo esttas bot,saludo,saludo,0.9599219560623169
+¿hey en qué zona hay cupo libres por favor?,ubicacion,ubicacion,0.9610136151313782
+"una pregunta, qué tan copado está porfa?",porcentaje,porcentaje,0.9769538044929504
+¿parce le puedo creer al modelo ahora?,confianza,confianza,0.9795432686805725
+¿oiga hay espacio para estacionar ya?,disponibilidad,disponibilidad,0.9767639636993408
+dime dame el panorama?,resumen,resumen,0.9755973815917969
+buebas buenas parce,saludo,saludo,0.9825829267501831
+nos vemos bot,despedida,despedida,0.9822452068328857
+¿oye cuánto vle la vacuna ya?,fuera_de_tema,fuera_de_tema,0.9898979663848877
+"una pregunta, donde hay parqueadero disponible",ubicacion,ubicacion,0.987678587436676
+¿parce cuántos están ocupados gracias?,conteo_ocupados,conteo_ocupados,0.9783372282981873
+me puedes decir explicame el universo,fuera_de_tema,fuera_de_tema,0.9907829165458679
+¿hazme un resumen ahora?,resumen,resumen,0.9794020652770996
+ok terminamos!,despedida,despedida,0.9752295017242432
+por favor cuántos auto metidos hay porfa?,conteo_ocupados,conteo_ocupados,0.9660812616348267
+oye índice de ocupación de el estacionamiento,porcentaje,porcentaje,0.9577510356903076
+Quisiera saber qué encontraste pues?,resumen,resumen,0.9823494553565979
+necesito saber qué tan precisa fue la red neuronal porfa?,confianza,confianza,0.9377321004867554
+ME DICES DAME EL ESTADO GENERAL?,resumen,resumen,0.9756931662559509
+¿me dices te puuedes equivocar por favor?,confianza,confianza,0.8073256611824036
+Por favor cual luggar queda mas cerca hoy?,ubicacion,ubicacion,0.9622098207473755
+"hola, dame un balance ahora",resumen,resumen,0.9634116291999817
+"hola, que numeros de celda estan desocupados pues?",ubicacion,ubicacion,0.9503243565559387
+"una pregunta, dónde compro zapatos?",fuera_de_tema,fuera_de_tema,0.9623468518257141
+hey consigo luagres?,disponibilidad,disponibilidad,0.958968460559845
+hasta la póxima,despedida,despedida,0.9578369855880737
+buenas buenaa!,saludo,saludo,0.9777244925498962
+me dices dónde dejo el nave hoy?,ubicacion,ubicacion,0.9721411466598511
+"hola, cuánta gente parqueó",conteo_ocupados,conteo_ocupados,0.9808974862098694
+"DISCULPA, CUÁNTOS ESPACIOS OCUPADOS AHORITA",conteo_ocupados,conteo_ocupados,0.9676191806793213
+me dices cuál fue el resultado por favor,resumen,resumen,0.9485015273094177
+"una pregunta, quién es un huracán ahorita?",fuera_de_tema,fuera_de_tema,0.9868795275688171
+"una pregunta, dónde puedo parquear ya",ubicacion,ubicacion,0.9799426794052124
+por favor cuánto se ha llenado por favor,porcentaje,porcentaje,0.9839972257614136
+dime qué tan bien funcionó la red?,confianza,confianza,0.9837606549263
+hey que es python ahora,fuera_de_tema,fuera_de_tema,0.7954280972480774
+hey cuántos carros hay parqueados,conteo_ocupados,conteo_ocupados,0.9750008583068848
+buuenos días señor!,saludo,saludo,0.9457422494888306
+bueno gracias cao,despedida,despedida,0.9727945923805237
+¿hey explícame la historia de colombia gracias?,fuera_de_tema,fuera_de_tema,0.9893071055412292
+dime qué pasó en el análisis ya?,resumen,resumen,0.9850873947143555
+listo muchas gracias!,despedida,despedida,0.9806253910064697
+holi,saludo,saludo,0.9754205346107483
+¿queda cupo en el parking ya?,disponibilidad,disponibilidad,0.9630494713783264
+holla cómo te va bot,saludo,saludo,0.9491772055625916
+bueno hasta lueeo amigo,despedida,despedida,0.9578402638435364
+¿bueno que codigos tienen los espacio desocupados?,ubicacion,ubicacion,0.9871323108673096
+hooliii,saludo,saludo,0.969897985458374
+¿quisiera saber cómmo está la zona ahorita?,resumen,disponibilidad,0.624995768070221
+"hola, resume el estado ya",resumen,resumen,0.9776626825332642
+¿hey que tan acertado es el sistema ahorita?,confianza,confianza,0.9827911257743835
+¿dime es confibale la detección ahora?,confianza,confianza,0.9764959216117859
+"disculpa, cantidad de carro en el lote hoy?",conteo_ocupados,conteo_ocupados,0.9737895727157593
+¿hay lguares o está lleno ahorita?,disponibilidad,disponibilidad,0.8235782980918884
+qué códigos tienen los espacios disponiibles ahorita,ubicacion,ubicacion,0.9777147769927979
+¿dame el pqnorama porfa?,resumen,resumen,0.9204953908920288
+listo hasta mañana,despedida,despedida,0.9833270907402039
+treminamos,despedida,saludo,0.7671189904212952
+neccesito saber hay disponibilidad porfa,disponibilidad,disponibilidad,0.9709694385528564
+listo ya no necesito nada,despedida,despedida,0.9839186668395996
+hey va por la mitad o que porfa?,porcentaje,porcentaje,0.9824919700622559
+"Hola, quién sabe de la luna hoy",fuera_de_tema,fuera_de_tema,0.9872526526451111
+es confiable la deteccion ahorita?,confianza,confianza,0.971470832824707
+bueno quedan puestos porfa,disponibilidad,disponibilidad,0.8442000150680542
+bueno ocupacion en porcentaje,porcentaje,porcentaje,0.9759331345558167
+listo bye,despedida,despedida,0.9795995950698853
+"Una pregunta, cómo está toodo en este momento?",resumen,resumen,0.7309557199478149
+necesito saver puedo confiar en el resultado porfa,confianza,confianza,0.9337083101272583
+¿parce por dónde hay espacios ya?,ubicacion,ubicacion,0.9842542409896851
+helo bot,saludo,saludo,0.945192277431488
+"hola, vdzzkbru",fuera_de_tema,saludo,0.9241188764572144
+hey dame toda la información porfa,resumen,resumen,0.9539327621459961
+listo hasta luego gracias,despedida,despedida,0.9830226302146912
+OYE XJFVMRGT YVMSTLO POR FAVOR,fuera_de_tema,fuera_de_tema,0.968529224395752
+bunas amigo,saludo,saludo,0.9775989055633545
+quisiera saber cuéntame spbre física?,fuera_de_tema,fuera_de_tema,0.8110759258270264
+¿oye probabilidad de error en este moento?,confianza,confianza,0.9780784249305725
+¿y ids de celdas desocupados porfa?,ubicacion,ubicacion,0.9532912969589233
+"una pregunta, qué tan confiable es el resultado hoy?",confianza,confianza,0.9788203835487366
+me dices cuántos plaza lleos hay ahora?,conteo_ocupados,conteo_ocupados,0.9322274923324585
+"disculpa, cual lugar esta libres ahorita",ubicacion,ubicacion,0.9797143340110779
+¿explicame las elecxiones gracias?,fuera_de_tema,disponibilidad,0.747383713722229
+¿quiiera sabrr está muy lleno el estacionamiento?,porcentaje,porcentaje,0.8104195594787598
+Oiga cuántos puesto llenos hay hoy,conteo_ocupados,conteo_ocupados,0.8280029296875
+"Una pregunta, cuantos parqueadero estan ocupados gracias?",conteo_ocupados,conteo_ocupados,0.978410542011261
+¿por favor explícame la luna porfa?,fuera_de_tema,fuera_de_tema,0.9767012596130371
+"disculpa, en qué zona hay celdas vacíos por favor",ubicacion,ubicacion,0.9819052219390869
+mucho gusro!,saludo,saludo,0.9697183966636658
+¿ubicacion de los celda vacios ahoruta?,ubicacion,ubicacion,0.9861067533493042
+Por favor jrr ctbayy af?,fuera_de_tema,saludo,0.777438759803772
+¿bueno cuenta los coches?,conteo_ocupados,conteo_ocupados,0.977884829044342
+eso es tdo parce,despedida,confianza,0.8932278156280518
+y qué significa el país más grande hoy?,fuera_de_tema,fuera_de_tema,0.992521345615387
+"¿una pregunta, cuales son los desocupado ahora?",ubicacion,ubicacion,0.9816927909851074
+"disculpa, estás seguro?",confianza,confianza,0.9739181399345398
+necesito saber está medio vacío el lote,porcentaje,porcentaje,0.9520617127418518
+"disculpa, estado actual gracias?",resumen,resumen,0.968716561794281
+por favor como esta el parking ahorita?,resumen,resumen,0.850381076335907
+¿oye qué sitios me recomiendas porfa?,ubicacion,ubicacion,0.973149836063385
+dime en qué zona hay parqqueadero libres ya?,ubicacion,ubicacion,0.9625385403633118
+¿parce cual es la confianza gracias?,confianza,confianza,0.9276491403579712
+"¿disculpa, cómo está todo por favor?",resumen,resumen,0.9833605289459229
+dime cuál es el estado de esto ya,resumen,resumen,0.9606381058692932
+listo ya me voy gracias,despedida,despedida,0.9740090370178223
+CHAO BOT,despedida,despedida,0.9645344018936157
+¿oiga cuantos plaza usados hay gracias?,conteo_ocupados,conteo_ocupados,0.776402473449707
+me puedes decir resultado del análisis gracias,resumen,resumen,0.9825441241264343
+quisiera saber qué tan bien funcionó la red gracias?,confianza,confianza,0.9819944500923157
+"disculpa, cuál es el mejor celular pues?",fuera_de_tema,fuera_de_tema,0.9799143671989441
+oiga hay espacio para estacionar en este momento,disponibilidad,disponibilidad,0.9765579104423523
+Quién sabe de la novela porfa,fuera_de_tema,fuera_de_tema,0.9870808720588684
+"¿una prgeunta, hay cupos disponibles porfa?",disponibilidad,disponibilidad,0.9760006070137024
+Estaddo atcual gracias,resumen,disponibilidad,0.7983492016792297
+¿qué detectaste en la imagen pues?,resumen,resumen,0.9831605553627014
+cuántos camioneta están estacionados pues?,conteo_ocupados,conteo_ocupados,0.9736109972000122
+Hey cuántos vehículos detectaste hoy,conteo_ocupados,conteo_ocupados,0.9552728533744812
+hola cómo te va amigo,saludo,saludo,0.9203260540962219
+"¿UNA PREGUNTA, EN QUÉ ZONA HAY ESPACIOS DESOCUPADOS HOY?",ubicacion,ubicacion,0.9781574606895447
+oye dime cuántos auto hay en este momnto,conteo_ocupados,conteo_ocupados,0.8859398365020752
+y qué tan lleno está el parqueadero ya,porcentaje,porcentaje,0.9774486422538757
+¿dame el porcentaje porfa?,porcentaje,porcentaje,0.9688198566436768
+hola cómo está!,saludo,resumen,0.7893332839012146
+quisiera saber dame un reporte?,resumen,resumen,0.9836013913154602
+hola paarce parce,saludo,saludo,0.9801459908485413
+necesito saber es correcto el análisis porfa,confianza,confianza,0.9799084067344666
+y cuál es la certeza ya?,confianza,confianza,0.9732556343078613
+¿por favor te puedes equivocar porfa?,confianza,confianza,0.9823756814002991
+oye por que lado hay lugar,ubicacion,ubicacion,0.9702417254447937
+¿hey cuantos espacio desocupados hay ya?,disponibilidad,conteo_ocupados,0.7366583943367004
+"una pregunta, qué tan fiable es gracias",confianza,confianza,0.9754129648208618
+Beunas noches parce!,saludo,saludo,0.9776787757873535
+¿hey qué tal está el estacionamiento?,resumen,resumen,0.7288777828216553
+bueno ocupación actual,porcentaje,porcentaje,0.9728842377662659
+¿oiga conteo de camionetas por favor?,conteo_ocupados,conteo_ocupados,0.9355723261833191
+"una pregunta, lista de lugar vacios",ubicacion,ubicacion,0.9735512137413025
+cuántos naves hay ahorita ahora?,conteo_ocupados,conteo_ocupados,0.9722681641578674
+hooal,saludo,saludo,0.9297287464141846
+dime cuentame sobre un libro ahora?,fuera_de_tema,fuera_de_tema,0.9865303039550781
+hey en que espacios me hago gracias?,ubicacion,ubicacion,0.9046823382377625
+cuál me sirve para parquear gracias?,ubicacion,ubicacion,0.9882233738899231
+¿me dices cául está vacío ya?,ubicacion,porcentaje,0.7013909220695496
+Dime qué tan bien funcionó la red gracias,confianza,confianza,0.9830135703086853
+oye algun plazas disponble?,disponibilidad,disponibilidad,0.9844912886619568
+por favor que porcentaje lleva pues?,porcentaje,porcentaje,0.9855035543441772
+Bueno estas seguro ya,confianza,confianza,0.985101044178009
+Oiga cuántos auto hay parqueados en este momento,conteo_ocupados,conteo_ocupados,0.9279815554618835
+¿ehy nivel de confianza?,confianza,confianza,0.9487664699554443
+algun plaza desocupados?,disponibilidad,disponibilidad,0.9361845850944519
+quisiera saber que tan coniable es el resultado ahorita,confianza,confianza,0.9640411734580994
+"¿hola, alcanzo a encontrar parqueadero porfa?",disponibilidad,disponibilidad,0.9587312340736389
+¿me puedes decir háblame de la música hoy?,fuera_de_tema,fuera_de_tema,0.9904413223266602
+necesito saber esta a reventar el parqueadero ahorita,porcentaje,porcentaje,0.8825386762619019
+dime cuál fue el resultado hoy?,resumen,resumen,0.9785453081130981
+Me puedes deccir cuantos vehiculos hay,conteo_ocupados,conteo_ocupados,0.9373736381530762
+dame el estado general ya?,resumen,resumen,0.9765254855155945
+donde queda la bolsa de valores ahoruta,fuera_de_tema,fuera_de_tema,0.935520350933075
+por favor cuanto mide la torre eiffel,fuera_de_tema,fuera_de_tema,0.9226009249687195
+oiga cuánto vale el mundial?,fuera_de_tema,fuera_de_tema,0.9887940287590027
+¿bueno explicame cocina por favor?,fuera_de_tema,fuera_de_tema,0.9897474050521851
+me puedes decir queda algo ahorita,disponibilidad,disponibilidad,0.975661039352417
+buensa tardes psrce,saludo,saludo,0.9710818529129028
+por favor qué serie me recomiendas por favor?,fuera_de_tema,fuera_de_tema,0.5360520482063293
+"hola, cuándo fue el país más grande?",fuera_de_tema,fuera_de_tema,0.9850364923477173
+quisiiera saber queda algo ahorita?,disponibilidad,disponibilidad,0.9828752279281616
+y a qué capacidad está el parqueo por favor?,porcentaje,porcentaje,0.9560209512710571
+mucho gsto parce,saludo,saludo,0.9377710819244385
+hasta la próxima parce,despedida,despedida,0.9775161743164062
+"¿una pregunta, cuáles quedan libres ya?",ubicacion,ubicacion,0.9765945076942444
+¿oye cuantos carros metidos hay por favor?,conteo_ocupados,conteo_ocupados,0.9712315797805786
+"disculpa, qué tan bien funcionó la red ya",confianza,confianza,0.9804341197013855
+hey eso es verdad ahorita?,confianza,confianza,0.9295834898948669
+¿me puedes decir cual es la confianza ahora?,confianza,confianza,0.7463952898979187
+HOLLA BOT,saludo,saludo,0.9574945569038391
+cuántos ocupados hay hoy,conteo_ocupados,conteo_ocupados,0.9717841744422913
+éaple,saludo,saludo,0.8997888565063477
+Dime cuántos nave hay hoy,conteo_ocupados,conteo_ocupados,0.8835052847862244
+dime cuanto porcentaje hay ocupado por fvaor,porcentaje,porcentaje,0.9840846061706543
+qué tal está el lote ahora,resumen,resumen,0.4885071814060211
+OK GRACIAS CHAO,despedida,despedida,0.9756895303726196
+¿me puedes decir porcentaje de cupos ocupados ya?,porcentaje,porcentaje,0.9853755831718445
+PARCE DÓNDE PUEDO PARQUEAR GRACIAS?,ubicacion,ubicacion,0.9739158749580383
+HELLO AMIOG,saludo,saludo,0.869343101978302
+oiga reporte de ocupación pues,resumen,resumen,0.9275434017181396
+"¿hola, en qué zona hay lugar vacío porfa?",ubicacion,ubicacion,0.9289166927337646
+dime cuánto se ha llenado hoy,porcentaje,porcentaje,0.9833449721336365
+hasat mañana,despedida,saludo,0.9791499972343445
+¿cuéname sobre las elecciones?,fuera_de_tema,fuera_de_tema,0.9445586204528809
+ya me voy gracisa,despedida,despedida,0.9107998609542847
+"una pregunta, lista de espacios desocuupado gracias",ubicacion,ubicacion,0.9771265387535095
+adios amigo,despedida,despedida,0.9223428964614868
+hola que tal bot,saludo,saludo,0.9776449203491211
+por fqvor resumen del parqueadero gracias,resumen,resumen,0.984930157661438
+ok gracias chao bot,despedida,despedida,0.9832964539527893
+Por favor esta a reventar el parqueo,porcentaje,porcentaje,0.9185720086097717
+cuántos camioneta están estacionados ya?,conteo_ocupados,conteo_ocupados,0.9681954383850098
+y cual celda esta disponible pues,ubicacion,ubicacion,0.970159113407135
+¿quisiera saber hay donde parquear porfa?,disponibilidad,disponibilidad,0.812077522277832
+¿dime cuál puedo uaar ahora?,ubicacion,ubicacion,0.9848576784133911
+"hoa, dónde hay cupos libres?",ubicacion,ubicacion,0.9645177721977234
+parce dame un reporte pues?,resumen,resumen,0.985052227973938
+¿por favor sgzeda mpu?,fuera_de_tema,fuera_de_tema,0.9049338102340698
+bueno que estés bien bot,despedida,despedida,0.9798335433006287
+"¿ua pregunta, consigo plaza pues?",disponibilidad,ubicacion,0.45164307951927185
+"¿hola, hay algo desocupados gracias?",disponibilidad,disponibilidad,0.9869676232337952
+holiii,saludo,saludo,0.9705935120582581
+oiga sí hay puestos hoy,disponibilidad,disponibilidad,0.9734511375427246
+necesito saber cyál lugar está disponible ya,ubicacion,porcentaje,0.7538960576057434
+"una pregunta, qué tan seguro es el algoritmo gracias",confianza,confianza,0.9855613112449646
+"¿hola, le puedo creer al modelo?",confianza,confianza,0.9797888398170471
+"hola, existe allgún puestos libre?",disponibilidad,disponibilidad,0.9351364374160767
+hoka que tal!,saludo,saludo,0.9815146327018738
+bueno dame los resultados pues,resumen,resumen,0.9848909974098206
+¿cuéntame sobre un poema?,fuera_de_tema,fuera_de_tema,0.9896817803382874
+bueno ya me voy gracias,despedida,despedida,0.9691895842552185
+¿me puedes decir seguro que está bien ya?,confianza,confianza,0.9836146235466003
+Parce por dónde hay sitio porfa?,ubicacion,ubicacion,0.9835684895515442
+bueno dame un informe rápido hoy,resumen,resumen,0.9753029346466064
+¿OARCE DÓNDE DEJO EL AUTO AHORA?,ubicacion,ubicacion,0.985441267490387
+oye cuéntame sobre cocina por favor,fuera_de_tema,fuera_de_tema,0.9888108968734741
+Cuántos carro ves puues,conteo_ocupados,conteo_ocupados,0.9612104892730713
+dime puedo confiar en el resultado porfa?,confianza,confianza,0.9817366600036621
+Buenos das señor,saludo,saludo,0.9710675477981567
+¿y el modelo se puede equivocar ahora?,confianza,confianza,0.9824830293655396
+¿por favor estado acrual hoy?,resumen,resumen,0.9807115197181702
+bueno ids de sitoi desocupado ahorita?,ubicacion,ubicacion,0.9711145758628845
+¿parce te puedes equivocar gracias?,confianza,confianza,0.9078437685966492
+cjao parce,despedida,saludo,0.5528039932250977
+cao,despedida,despedida,0.5722492933273315
+"¿disculpa, qué sabes de un libro?",fuera_de_tema,fuera_de_tema,0.9865410923957825
+Oye cuántos camionetas hay adentro porfa?,conteo_ocupados,conteo_ocupados,0.9617484211921692
+por favor cuantos camionetas encontarste gracias,conteo_ocupados,conteo_ocupados,0.9471153020858765
+bueno alcanza para un naves más,disponibilidad,disponibilidad,0.9362978339195251
+¿me dices tasa de ocupacion?,porcentaje,porcentaje,0.9696545004844666
+¿hey infórmame del estado por favor?,resumen,resumen,0.9848847389221191
+¿me dices cuantos auto metidos hay ahorita?,conteo_ocupados,conteo_ocupados,0.9703295826911926
+parce qué tan saturado está el parking?,porcentaje,porcentaje,0.9703850150108337
+oiga informe del análisis ahorita,resumen,resumen,0.9850032925605774
+quiubo pace,saludo,saludo,0.8666422963142395
+buenas taardes bot,saludo,saludo,0.9774298667907715
+"Una prgunta, que fila tiene cupo desocupados por favor?",ubicacion,ubicacion,0.8596352338790894
+parce háblame de la novela en este momento?,fuera_de_tema,fuera_de_tema,0.9885303378105164
+buenas buneas,saludo,saludo,0.9699689745903015
+y cuántos espacios están ocupados ahorita,conteo_ocupados,conteo_ocupados,0.9764460325241089
+que cuuenats!,saludo,fuera_de_tema,0.47394534945487976
+"Hola, dame el estado general",resumen,resumen,0.9766209125518799
+probabilidad de error,confianza,confianza,0.9731068015098572
+oye cuantos coches ves,conteo_ocupados,conteo_ocupados,0.9718248844146729
+hey cuándo fue la democracia gracias?,fuera_de_tema,fuera_de_tema,0.9667266607284546
+¿reporte general porfa?,resumen,resumen,0.9837477803230286
+Me dices hay celda desocupados por favro,disponibilidad,disponibilidad,0.9791735410690308
+hey qué tan buena es la predicción ya?,confianza,confianza,0.9703201651573181
+buensa,saludo,saludo,0.9636920690536499
+¿quisiera saber cuántos coches hay adentro ahorita?,conteo_ocupados,conteo_ocupados,0.9723207950592041
+¿OYE CUÁNTOS COCHE QUEDARON YA?,conteo_ocupados,conteo_ocupados,0.9611538052558899
+parce dme los datos generales pues?,resumen,ubicacion,0.8684991002082825
+holla bot amigo,saludo,saludo,0.9695277214050293
+me puedes decir que tan exacto es ahora,confianza,confianza,0.9788728952407837
+oiga cuantos plazas quedan gracias?,disponibilidad,disponibilidad,0.9310706853866577
+hola parce patce,saludo,saludo,0.9799106121063232
+"una pregynta, dame el porcentaje gracias?",porcentaje,porcentaje,0.9780924320220947
+terminamos parce,despedida,saludo,0.927193820476532
+quisiera saber qué tanto está lleno en eset momento?,porcentaje,porcentaje,0.9676169157028198
+¿OIGA CÓMO ESTÁ TODO GRACIAS?,resumen,resumen,0.9810758829116821
+lista de plazas libres?,ubicacion,ubicacion,0.9774914979934692
+"DISCULPA, QUE PLAZAS ME SIRVE AHORA?",ubicacion,ubicacion,0.9417241215705872
+Me puedes decir cuentame como esta todo hoy,resumen,resumen,0.9805201888084412
+qué tan confiable es el resultado ahora,confianza,confianza,0.9825295209884644
+listo chao parce,despedida,despedida,0.981397271156311
+por fabor hay cupo con dudas?,confianza,confianza,0.9810793399810791
+listo grcias!,despedida,despedida,0.9596341252326965
+Hey hola parce,saludo,saludo,0.9834871292114258
+hey nivel de ocupacion ahora?,porcentaje,porcentaje,0.9597028493881226
+quisiera saber cuántos puestos se están usando,conteo_ocupados,conteo_ocupados,0.9786443710327148
+bueno fue un gustto amigo,despedida,despedida,0.933229923248291
+me dices que tan copado esat?,porcentaje,porcentaje,0.9042055606842041
+me dices en que sitio me hago porfa,ubicacion,ubicacion,0.9456869959831238
+parce infórmame del estado en este momento?,resumen,resumen,0.9830868244171143
+"hola, qué opinas de política porfa",fuera_de_tema,fuera_de_tema,0.9764926433563232
+por favor cuántos espacios están ocupados porfa,conteo_ocupados,conteo_ocupados,0.976432204246521
+"disculpa, en qué parte hay plaza",ubicacion,ubicacion,0.9849225282669067
+¿oye cuálees celdas están desocupado hoy?,ubicacion,ubicacion,0.9833024144172668
+necesito saber coinciden el detector y la cnn ahorita?,confianza,confianza,0.975264847278595
+Me dices como esta todo pues,resumen,resumen,0.982161819934845
+"hola, qué tan precisa es la detección",confianza,confianza,0.980221688747406
+me puedes decir cual es un huracan pues,fuera_de_tema,fuera_de_tema,0.6972403526306152
+y cuándo fue el reguetón gracias?,fuera_de_tema,fuera_de_tema,0.9863925576210022
+y tengo hambre ya?,fuera_de_tema,fuera_de_tema,0.8862341642379761
+Oye hay lugares con dudas ahorita,confianza,confianza,0.9717418551445007
+hasta luego gracias amigo,despedida,despedida,0.9840050935745239
+¿oye cual es la confianza hoy?,confianza,confianza,0.9393616914749146
+Quisiera sabwr haz un reporte completo?,resumen,resumen,0.9841576814651489
+"una pregunta, cuántos disponibles hay?",disponibilidad,conteo_ocupados,0.8995236158370972
+¿quisiera saber resumen del parqueadero?,resumen,resumen,0.9847132563591003
+ok perfwctto gracias chao,despedida,despedida,0.9779062867164612
+buenas noches parce,saludo,saludo,0.9837929606437683
+"¿UNA PREGUNTA, OCUPACIÓN EN PORCENTAJE?",porcentaje,porcentaje,0.9840179085731506
+Hey cuéntame sobre animales,fuera_de_tema,fuera_de_tema,0.9897453188896179
+qué tan bien funcionó la red porfa?,confianza,confianza,0.9799030423164368
+Bueno cuántos lugar tienen naves ahora,conteo_ocupados,conteo_ocupados,0.9557558298110962
+hay errores en la deteccion?,confianza,confianza,0.9786146879196167
+Gracias chao parrce,despedida,despedida,0.9789789319038391
+hola como te va bot,saludo,saludo,0.9264593720436096
+¿me puedes decir bmrqjgys szh ztmamwe por favor?,fuera_de_tema,fuera_de_tema,0.9827501773834229
+"disculpa, dónde puedo parquear gracias?",ubicacion,ubicacion,0.9377467632293701
+que tanto se ha llenado la zona ahorita,porcentaje,porcentaje,0.974746823310852
+¿quisiera saber dónde dejo el vehículo ahorita?,ubicacion,ubicacion,0.971881091594696
+lsito ya me voy gracias bot,despedida,despedida,0.8373818397521973
+me puedes decir qué espacios me sirve gracias?,ubicacion,ubicacion,0.9498791694641113
+hey cuántos ocupados hay por favor,conteo_ocupados,conteo_ocupados,0.9731897115707397
+oiga señalame un espacios desocupados,ubicacion,ubicacion,0.9720474481582642
+beunos días,saludo,saludo,0.8710466027259827
+¿por qué lado hay plaza?,ubicacion,ubicacion,0.9743950366973877
+¿quisiera saebr dime cuantos auto hay hoy?,conteo_ocupados,conteo_ocupados,0.9382555484771729
+Me dices cuentame como esta todo,resumen,resumen,0.9821120500564575
+chao gracias pave,despedida,despedida,0.9751145243644714
+oiga explicame la nvoela,fuera_de_tema,fuera_de_tema,0.979413628578186
+¿quisiera ssber cuántos coche encontraste ya?,conteo_ocupados,conteo_ocupados,0.9390260577201843
+oye cuánta gente parqueó,conteo_ocupados,conteo_ocupados,0.9767133593559265
+listo ya no necesito nada amigo,despedida,despedida,0.9847943186759949
+y cuántos plazas usados hay porfa,conteo_ocupados,conteo_ocupados,0.6740142107009888
+"hola, cuántos espacios quedan hoy",disponibilidad,disponibilidad,0.968151330947876
+dime cuéntame sobre películas,fuera_de_tema,fuera_de_tema,0.990638256072998
+por favor cuantas naves hay ahorita,conteo_ocupados,conteo_ocupados,0.9650993943214417
+parce es correcto el análisis,confianza,confianza,0.9785575270652771
+hey cuentame sobre fisica por favor,fuera_de_tema,fuera_de_tema,0.9896227121353149
+"¿disculpa, le puedo creer al modelo gracias?",confianza,confianza,0.9794896841049194
+"una pregunta, hay plazas con dudas porfa?",confianza,confianza,0.9805790781974792
+dame un informe rápido gracias?,resumen,resumen,0.9714258313179016
+etsá casi lleno,porcentaje,porcentaje,0.7797475457191467
+oye hay disponibilidad?,disponibilidad,disponibilidad,0.9620481729507446
+quién descubrió américa pues,fuera_de_tema,fuera_de_tema,0.9898017048835754
+¿me puedes decir hay lugares o esta lleno gracias?,disponibilidad,disponibilidad,0.9712072014808655
+y ocupacion actual pues,porcentaje,porcentaje,0.9722295999526978
+bueno es correcto el análisis ahorita?,confianza,confianza,0.9745014905929565
+¿oye que tan buena es la prediccion en este momento?,confianza,confianza,0.9672107100486755
+"¿disculpa, háblame de un poema?",fuera_de_tema,fuera_de_tema,0.9854512214660645
+buennos días amigo,saludo,saludo,0.9663075804710388
+me dicces qué encontraste ahorita,resumen,resumen,0.6737128496170044
+me dices dame un informe rápido ya,resumen,resumen,0.9695361256599426
+¿quisiera saber todavia hay cupo pues?,disponibilidad,disponibilidad,0.9790664315223694
+Hey en qué parte hay plaza,ubicacion,ubicacion,0.980537474155426
+me puedes decir a cuál me voy?,ubicacion,ubicacion,0.9853361248970032
+adiós parce,despedida,despedida,0.6846100091934204
+¿hey como salio el analisis pues?,resumen,resumen,0.969606876373291
+¿VA POR LA MITAD O QUÉ HOY?,porcentaje,porcentaje,0.9810524582862854
+¿oye qué proporción está ocupada pues?,porcentaje,porcentaje,0.9824255704879761
+¿y puedo parquear pues?,disponibilidad,disponibilidad,0.9780785441398621
+ok gracias por todo,despedida,despedida,0.9786465764045715
+qué tal pace,saludo,saludo,0.9553895592689514
+¿hey dame un informe rapido hoy?,resumen,resumen,0.9787794947624207
+me voy psrce,despedida,despedida,0.9645575881004333
+que estés bien amigo,despedida,despedida,0.9307027459144592
+Perfecto gracias chao parce,despedida,despedida,0.9733129739761353
+salidos bot,saludo,saludo,0.936069130897522
+hello anigo,saludo,saludo,0.638806164264679
+me voy parcce,despedida,despedida,0.9598926305770874
+y qué sitios me sirve ahorita?,ubicacion,ubicacion,0.9772665500640869
+¿me puedes decir queda cupo en el parking por favor?,disponibilidad,disponibilidad,0.9765903949737549
+hola qué tal!,saludo,saludo,0.9836198091506958
+qué cunetas!,saludo,saludo,0.9235007762908936
+cuanto vale un agujero negro,fuera_de_tema,fuera_de_tema,0.9600158333778381
+¿bueno señálame un celdas disponible ahorita?,ubicacion,ubicacion,0.9608793258666992
+¿cómo está de ocupado el lote pues?,porcentaje,porcentaje,0.9548656344413757
+salir parce,despedida,despedida,0.9573155641555786
+¿qué porcentaje de ocupación hay hoy?,porcentaje,porcentaje,0.9848347902297974
+necesito saber hay espacios con dudas gracias?,confianza,confianza,0.9801107048988342
+saluudos,saludo,disponibilidad,0.6173020601272583
+bueno ya no necesito nadda,despedida,despedida,0.9784170389175415
+¿PARCE DAME LOS DATOS GENERALES PORFA?,resumen,resumen,0.9844931364059448
+cuantos vehiculos hay ahorita hoy,conteo_ocupados,conteo_ocupados,0.9226893186569214
+quisiera saber cuantos estan ocupados graicas,conteo_ocupados,conteo_ocupados,0.9794824719429016
+hey hoal,saludo,saludo,0.9198773503303528
+bueno dónde hay cupo?,ubicacion,ubicacion,0.9832289814949036
+¿parce que codigos tienen los puesto desocupado porfa?,ubicacion,ubicacion,0.9854081273078918
+oye cuántos coche hay addentro,conteo_ocupados,conteo_ocupados,0.8846269845962524
+cuándo fue el océano más grande porfa?,fuera_de_tema,fuera_de_tema,0.9867621064186096
+Necesito saber dame el informe hoy,resumen,resumen,0.9736451506614685
+¿BUENO QUE CANTIDAD DE VEHICULOS HAY POR FAVOR?,conteo_ocupados,conteo_ocupados,0.972628653049469
+¿me dices a cuál me voy por favoor?,ubicacion,ubicacion,0.9765458703041077
+holiii bot,saludo,saludo,0.8227128386497498
+listo me sirvió gracais!,despedida,despedida,0.9741321206092834
+me dices quién sabe de física en este momento?,fuera_de_tema,fuera_de_tema,0.9881336092948914
+parce puedo parquear gtacias,disponibilidad,disponibilidad,0.951370358467102
+que taanto esta lleno,porcentaje,porcentaje,0.8904348015785217
+"¿hola, ya casi se llena ya?",porcentaje,porcentaje,0.9813799262046814
+ok chao bot,despedida,despedida,0.9814650416374207
+hey cuales quedan desocupados ya,ubicacion,ubicacion,0.8994167447090149
+ya no hay espaacio ya?,disponibilidad,conteo_ocupados,0.3446587324142456
+"hola, hay cupo desocupado ahora?",disponibilidad,disponibilidad,0.9842835664749146
+quisiera saber cuántos carros detectaste pues,conteo_ocupados,conteo_ocupados,0.9718709588050842
+buenoos días amigo,saludo,saludo,0.9624413251876831
+me dices que es un huracan ya,fuera_de_tema,fuera_de_tema,0.9476631283760071
+quisiera saber cuanto esta ocupado la zona,porcentaje,porcentaje,0.9727200269699097
+hola que mas puees bot,saludo,saludo,0.981395423412323
+quiubo pqrce,saludo,disponibilidad,0.6682119369506836
+me dices cuántos puesto llenos hay hoy,conteo_ocupados,conteo_ocupados,0.7980943322181702
+dime cuentame sobre programacion hoy,fuera_de_tema,fuera_de_tema,0.9929789900779724
+hasta la proxima bot,despedida,despedida,0.9784870743751526
+¿hey conteo de nave ya?,conteo_ocupados,fuera_de_tema,0.8808241486549377
+hey cuándo fue el mundial en este momento,fuera_de_tema,fuera_de_tema,0.9889611601829529
+ya me voy gracias amigo,despedida,despedida,0.9790306687355042
+¿oye cuántos puesto estn ocupados porfa?,conteo_ocupados,conteo_ocupados,0.9780622124671936
+¿necesito saber resumen del parqueadero gracias?,resumen,resumen,0.9845321774482727
+qué detectaste en la imagen en este momento,resumen,resumen,0.9844415783882141
+oiga explicame videojuegos,fuera_de_tema,fuera_de_tema,0.9757871627807617
+¿oye dame el panorama?,resumen,resumen,0.9708875417709351
+"¿HOLA, QUÉ TAN OCUPADO ESTÁ EL PARQUEADERO AHORITA?",porcentaje,porcentaje,0.9797495603561401
+por favor tienen lugares vacíos,disponibilidad,disponibilidad,0.38773220777511597
+¿hay disponibilidad ya?,disponibilidad,disponibilidad,0.9591816067695618
+bueans,saludo,disponibilidad,0.4820997416973114
+listo salir,despedida,despedida,0.9842550754547119
+Y está full el parqueadero gracias?,disponibilidad,porcentaje,0.5077399015426636
+bueno fue un gusto,despedida,despedida,0.9361993074417114
+pon musica en este momento,fuera_de_tema,fuera_de_tema,0.9540740251541138
+"hola, infórmame del estado ahorita?",resumen,resumen,0.9822331666946411
+que paso en el analisis,resumen,resumen,0.9855368733406067
+Bueno cuántos sitios ocupados pues,conteo_ocupados,conteo_ocupados,0.9701913595199585
+"hola, quedan cupo desocupados en el parking gracias",disponibilidad,disponibilidad,0.9838274717330933
+"¿hola, esyá vacío o lleno ya?",porcentaje,disponibilidad,0.746039867401123
+¿quisiera saber hay esspacio paara estacionar ahora?,disponibilidad,disponibilidad,0.9470455050468445
+"¿una pregunta, cuántos disponibles hay por favvor?",disponibilidad,conteo_ocupados,0.7799473404884338
+PERFECTO GRACIAS CHAO PATCE,despedida,despedida,0.97173011302948
+¿cuéntame sobre el clima?,fuera_de_tema,fuera_de_tema,0.9877520799636841
+¿oye qué tan congestionado está ya?,porcentaje,porcentaje,0.9821376800537109
+oye que hay en el lote ahorita,resumen,resumen,0.9579654335975647
+"disculpa, qué tan copado está ahora?",porcentaje,porcentaje,0.9703965783119202
+¿Y ESTÁ A REVENTAR EL PARQUEADERO POR FAVOR?,porcentaje,porcentaje,0.9105427265167236
+¿oiga quién es la fórmula del agua en este mmento?,fuera_de_tema,fuera_de_tema,0.9790310263633728
+ok asios amigo,despedida,despedida,0.9808986783027649
+dime wx vj ibotaig pues,fuera_de_tema,fuera_de_tema,0.7909652590751648
+hey tengo hambre?,fuera_de_tema,fuera_de_tema,0.8531369566917419
+salludos,saludo,saludo,0.9640904664993286
+bueno listo me sirvió gracias,despedida,despedida,0.9795544147491455
+hey donde queda el internet en este momento,fuera_de_tema,fuera_de_tema,0.8852905631065369
+"¿disculpa, qué número de sitios uso ahora?",ubicacion,ubicacion,0.9789823293685913
+¿dime alcanza para un camioneta más por favor?,disponibilidad,disponibilidad,0.8963519334793091
+me dices cuántos puesto están ocupados gracias,conteo_ocupados,conteo_ocupados,0.9770788550376892
+hola cómo esttás amigo,saludo,saludo,0.9546298980712891
+por favor qué tan precisa es la detección hoy?,confianza,confianza,0.9834163188934326
+hila qué más pues!,saludo,saludo,0.9829067587852478
+¿dime que tanto estta lleno por favor?,porcentaje,porcentaje,0.8919613361358643
+"¿una pregunta, cuéntame sobre la música?",fuera_de_tema,fuera_de_tema,0.9930039048194885
+oiga cuéntame sobre un chiste,fuera_de_tema,fuera_de_tema,0.9844509363174438
+parce qué hay en el parqueo en este momento?,resumen,resumen,0.9048720002174377
+"¿una pregunta, zakiwao niypdurv weusi en este momento?",fuera_de_tema,fuera_de_tema,0.9332432150840759
+hay errores en la detección porfa?,confianza,confianza,0.9750708937644958
+¿hey dónde edtaciono porfa?,ubicacion,ubicacion,0.7899050116539001
+"¿disculpa, está casi leno pues?",porcentaje,porcentaje,0.6751864552497864
+Me dices qué números de lugar están libre porfa?,ubicacion,ubicacion,0.9749222993850708
+¿oye cuál es la certeza?,confianza,confianza,0.9668474197387695
+me puedes decir cuántos naves hay ahorita pues?,conteo_ocupados,conteo_ocupados,0.9631915092468262
+Hay discrepancias?,confianza,confianza,0.980038583278656
+y me cuentas algo divertido graciias?,fuera_de_tema,saludo,0.3409925103187561
+me puuedes decir cuál es un número primo,fuera_de_tema,fuera_de_tema,0.9635329842567444
+¿bueno dame un balance ya?,resumen,resumen,0.9600425362586975
+qué tan full está por favor?,porcentaje,porcentaje,0.9739157557487488
+dume cyantos parqueadero se estan usando pues,conteo_ocupados,conteo_ocupados,0.48610320687294006
+me dices estás seguro de eso ahora,confianza,confianza,0.9826319217681885
+listo me voy,despedida,despedida,0.9785699844360352
+oye identificadores de los plazas vacios por favor?,ubicacion,ubicacion,0.9870702028274536
+¿dime por qué lado hay sitios?,ubicacion,ubicacion,0.9841448068618774
+¿cuáles qyedan desocupados gracias?,ubicacion,saludo,0.6535215973854065
+cómo estás,saludo,saludo,0.9762606024742126
+hey qué tal la disponiilidad hoy,disponibilidad,disponibilidad,0.848851203918457
+Dónde queda un lugares libres gracias?,ubicacion,ubicacion,0.9241930246353149
+Bueno salur,despedida,saludo,0.655877411365509
+terminamos!,despedida,saludo,0.9726139903068542
+Dime qué tan precisa es la detección gracias,confianza,confianza,0.9818090796470642
+¿quisiera saber cuanta gente parqueo gracias?,conteo_ocupados,conteo_ocupados,0.9756991863250732
+y hay errores en la detección ahora?,confianza,confianza,0.9798158407211304
+¿bueno dame el informe pues?,resumen,resumen,0.9786497354507446

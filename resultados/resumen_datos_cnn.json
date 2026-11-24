@@ -1,0 +1,26 @@
+{
+  "total": 133099,
+  "por_fuente": {
+    "pklot": 73100,
+    "cnrext": 59999
+  },
+  "por_clase": {
+    "ocupado": 67806,
+    "libre": 65293
+  },
+  "por_clima": {
+    "soleado": 48951,
+    "nublado": 43502,
+    "lluvioso": 40646
+  },
+  "por_particion": {
+    "train": 93169,
+    "test": 19965,
+    "val": 19965
+  },
+  "por_parqueadero_pklot": {
+    "PUCPR": 42625,
+    "UFPR05": 17902,
+    "UFPR04": 12573
+  }
+}

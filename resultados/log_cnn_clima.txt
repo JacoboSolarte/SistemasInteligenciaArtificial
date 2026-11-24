@@ -1,0 +1,27 @@
+Dispositivo: cuda
+{'train': 41609, 'val': 7342, 'test': 40646}
+
+=== Entrenando CNN (clima) con ADAM  lr=0.001 ===
+  época  1 | loss 0.1915 acc 0.9329 | val loss 0.0905 acc 0.9707 | lr 1.0e-03 | 23.9s
+  época  2 | loss 0.1103 acc 0.9607 | val loss 0.0834 acc 0.9709 | lr 1.0e-03 | 18.2s
+  época  3 | loss 0.0950 acc 0.9692 | val loss 0.0649 acc 0.9774 | lr 1.0e-03 | 15.4s
+  época  4 | loss 0.0844 acc 0.9720 | val loss 0.0587 acc 0.9824 | lr 1.0e-03 | 15.4s
+  época  5 | loss 0.0762 acc 0.9751 | val loss 0.0642 acc 0.9793 | lr 1.0e-03 | 15.4s
+  época  6 | loss 0.0690 acc 0.9773 | val loss 0.0623 acc 0.9798 | lr 1.0e-03 | 15.5s
+  época  7 | loss 0.0699 acc 0.9778 | val loss 0.0506 acc 0.9860 | lr 1.0e-03 | 15.5s
+  época  8 | loss 0.0667 acc 0.9782 | val loss 0.0487 acc 0.9858 | lr 1.0e-03 | 15.5s
+  época  9 | loss 0.0618 acc 0.9803 | val loss 0.0447 acc 0.9858 | lr 1.0e-03 | 15.5s
+  época 10 | loss 0.0610 acc 0.9803 | val loss 0.0552 acc 0.9805 | lr 1.0e-03 | 15.6s
+  época 11 | loss 0.0578 acc 0.9818 | val loss 0.0440 acc 0.9869 | lr 1.0e-03 | 15.5s
+  época 12 | loss 0.0580 acc 0.9815 | val loss 0.0416 acc 0.9886 | lr 1.0e-03 | 15.5s
+  época 13 | loss 0.0527 acc 0.9834 | val loss 0.0480 acc 0.9869 | lr 1.0e-03 | 15.6s
+  época 14 | loss 0.0492 acc 0.9839 | val loss 0.0513 acc 0.9850 | lr 1.0e-03 | 15.6s
+  época 15 | loss 0.0514 acc 0.9845 | val loss 0.0380 acc 0.9890 | lr 1.0e-03 | 15.5s
+  época 16 | loss 0.0476 acc 0.9844 | val loss 0.0400 acc 0.9873 | lr 1.0e-03 | 15.6s
+  época 17 | loss 0.0467 acc 0.9849 | val loss 0.0441 acc 0.9888 | lr 1.0e-03 | 15.5s
+  época 18 | loss 0.0449 acc 0.9867 | val loss 0.0366 acc 0.9905 | lr 1.0e-03 | 15.5s
+  época 19 | loss 0.0450 acc 0.9863 | val loss 0.0358 acc 0.9902 | lr 1.0e-03 | 15.5s
+  época 20 | loss 0.0464 acc 0.9858 | val loss 0.0367 acc 0.9910 | lr 1.0e-03 | 15.5s
+  TEST clima: accuracy=0.9878  precision=0.9968  recall=0.9813  f1=0.9890
+experimento optimizador   f1_val  epocas  parametros   tiempo_s  test_accuracy  test_precision  test_recall  test_f1
+      clima        adam 0.990914      20      548482 321.231329       0.987822        0.996761     0.981267 0.988954

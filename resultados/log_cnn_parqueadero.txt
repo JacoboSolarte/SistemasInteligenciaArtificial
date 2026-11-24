@@ -1,0 +1,28 @@
+Dispositivo: cuda
+{'train': 25904, 'val': 4571, 'test': 42625}
+
+=== Entrenando CNN (parqueadero) con ADAM  lr=0.001 ===
+  época  1 | loss 0.1230 acc 0.9649 | val loss 0.0531 acc 0.9805 | lr 1.0e-03 | 12.1s
+  época  2 | loss 0.0381 acc 0.9885 | val loss 0.0194 acc 0.9943 | lr 1.0e-03 | 9.7s
+  época  3 | loss 0.0305 acc 0.9908 | val loss 0.0176 acc 0.9961 | lr 1.0e-03 | 9.8s
+  época  4 | loss 0.0232 acc 0.9924 | val loss 0.0169 acc 0.9956 | lr 1.0e-03 | 9.7s
+  época  5 | loss 0.0206 acc 0.9934 | val loss 0.0150 acc 0.9972 | lr 1.0e-03 | 9.7s
+  época  6 | loss 0.0224 acc 0.9933 | val loss 0.0135 acc 0.9972 | lr 1.0e-03 | 9.7s
+  época  7 | loss 0.0172 acc 0.9949 | val loss 0.0138 acc 0.9972 | lr 1.0e-03 | 9.6s
+  época  8 | loss 0.0168 acc 0.9949 | val loss 0.0201 acc 0.9941 | lr 1.0e-03 | 9.7s
+  época  9 | loss 0.0185 acc 0.9947 | val loss 0.0098 acc 0.9969 | lr 1.0e-03 | 9.7s
+  época 10 | loss 0.0171 acc 0.9952 | val loss 0.0105 acc 0.9972 | lr 1.0e-03 | 9.6s
+  época 11 | loss 0.0142 acc 0.9952 | val loss 0.0119 acc 0.9974 | lr 1.0e-03 | 9.6s
+  época 12 | loss 0.0148 acc 0.9961 | val loss 0.0111 acc 0.9965 | lr 1.0e-03 | 9.7s
+  época 13 | loss 0.0111 acc 0.9961 | val loss 0.0097 acc 0.9974 | lr 5.0e-04 | 9.6s
+  época 14 | loss 0.0086 acc 0.9973 | val loss 0.0100 acc 0.9980 | lr 5.0e-04 | 9.7s
+  época 15 | loss 0.0095 acc 0.9971 | val loss 0.0096 acc 0.9980 | lr 5.0e-04 | 9.7s
+  época 16 | loss 0.0097 acc 0.9969 | val loss 0.0081 acc 0.9982 | lr 5.0e-04 | 9.6s
+  época 17 | loss 0.0097 acc 0.9972 | val loss 0.0098 acc 0.9965 | lr 5.0e-04 | 9.6s
+  época 18 | loss 0.0089 acc 0.9976 | val loss 0.0090 acc 0.9980 | lr 5.0e-04 | 9.7s
+  época 19 | loss 0.0076 acc 0.9976 | val loss 0.0101 acc 0.9985 | lr 5.0e-04 | 9.6s
+  época 20 | loss 0.0079 acc 0.9977 | val loss 0.0086 acc 0.9982 | lr 2.5e-04 | 9.6s
+  early stopping en la época 20
+  TEST parqueadero: accuracy=0.9895  precision=0.9810  recall=0.9962  f1=0.9886
+experimento optimizador   f1_val  epocas  parametros   tiempo_s  test_accuracy  test_precision  test_recall  test_f1
+parqueadero        adam 0.998329      20      548482 195.851338       0.989537        0.981031      0.99623 0.988572

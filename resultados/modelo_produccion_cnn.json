@@ -1,0 +1,5 @@
+{
+  "origen": "cnn_general_adam_optimizada.pth",
+  "f1_val": 0.9956215870517047,
+  "test_f1": 0.9955231957494958
+}
