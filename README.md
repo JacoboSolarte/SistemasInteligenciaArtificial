@@ -548,3 +548,14 @@ auto = AnalizadorAutomatico("pesos/detector_universal.pth")
 anotada, estado = auto.analizar_imagen(cv2.imread("foto_de_dron.jpg"))   # lado="auto" por defecto
 print(estado["libres"], estado["ocupados"], estado["vehiculos_detectados"])
 ```
+
+## 12. Despliegue en Streamlit Community Cloud
+
+La app se puede publicar gratis desde este repositorio en [share.streamlit.io](https://share.streamlit.io):
+
+1. Iniciar sesión con la cuenta de GitHub y pulsar **Create app → Deploy a public app from GitHub**.
+2. Repositorio `JacoboSolarte/SistemasInteligenciaArtificial`, rama `main`, archivo principal **`despliegue/streamlit_app.py`**.
+3. En *Advanced settings* elegir **Python 3.13** y pulsar **Deploy**.
+
+`despliegue/streamlit_app.py` ejecuta `app.py` y `despliegue/requirements.txt` instala PyTorch **solo CPU** (la nube no tiene GPU),
+por lo que cada imagen tarda unos segundos. Los pesos entrenados ya están en `pesos/`, así que no se entrena nada en la nube.
