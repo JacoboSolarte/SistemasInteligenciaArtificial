@@ -13,6 +13,7 @@ import pandas as pd
 import streamlit as st
 
 from asistente.asistente import Asistente
+from herramientas.calibrar_en_app import editor_calibracion, espacios_marcados
 from inferencia.automatico import AnalizadorAutomatico
 from inferencia.pipeline import AnalizadorParqueadero
 from inferencia.recorte import validar_espacios
@@ -38,6 +39,25 @@ def cargar_automatico():
 def cargar_asistente():
     p = PESOS / "transformer_asistente.pth"
     return Asistente(p, CFG["asistente"]["umbral_intencion"], obtener_dispositivo()) if p.exists() else None
+
+
+def imagen_fuente(archivo_subido, ejemplo, tipo):
+    """Imagen BGR de la fuente elegida (primer frame si es video) y su nombre; (None, None) si no hay."""
+    if archivo_subido is None and ejemplo is None:
+        return None, None
+    nombre = archivo_subido.name if archivo_subido else ejemplo
+    if tipo == "Imagen":
+        datos = archivo_subido.getvalue() if archivo_subido else (EJEMPLOS / ejemplo).read_bytes()
+        return cv2.imdecode(np.frombuffer(datos, np.uint8), cv2.IMREAD_COLOR), nombre
+    if archivo_subido:
+        tmp = Path(tempfile.gettempdir()) / f"calib_{archivo_subido.name}"
+        tmp.write_bytes(archivo_subido.getvalue())
+    else:
+        tmp = EJEMPLOS / ejemplo
+    cap = cv2.VideoCapture(str(tmp))
+    ok, frame = cap.read()
+    cap.release()
+    return (frame if ok else None), nombre
 
 
 def estado_sesion():
@@ -74,19 +94,28 @@ with st.sidebar:
                     "imagen (dron, edificio, lateral, suelo). Calibrado: usa los espacios marcados de una cámara fija "
                     "(más preciso para esa cámara).")
     automatico = modo.startswith("Automático")
-    espacios = None
+    espacios, calibrar_en_app = None, False
     if not automatico:
         jsons = sorted(p.name for p in (RAIZ / "config").glob("espacios_*.json"))
         sugerido = next((j for j in jsons if ejemplo and j.replace("espacios_", "").replace(".json", "") in ejemplo), jsons[0] if jsons else None)
-        modo_json = st.radio("JSON de espacios", ["Del proyecto", "Subir JSON"], horizontal=True)
-        if modo_json == "Del proyecto" and jsons:
+        modo_json = st.radio("JSON de espacios", ["Del proyecto", "Subir JSON", "Marcar en la app"], horizontal=True,
+                             help="Marcar en la app: dibuja los espacios con clics sobre la imagen (pestaña Análisis)")
+        if modo_json == "Marcar en la app":
+            calibrar_en_app = True
+            c = st.session_state.get("calib")
+            fuente_actual = archivo_subido.name if archivo_subido else ejemplo
+            if c and c["fuente"] == fuente_actual:
+                espacios = espacios_marcados(c["grupos"])
+            st.caption(f"Espacios marcados: **{len(espacios) if espacios else 0}** (márcalos en la pestaña 📷 Análisis)")
+        elif modo_json == "Del proyecto" and jsons:
             elegido = st.selectbox("Archivo", jsons, index=jsons.index(sugerido) if sugerido in jsons else 0)
             espacios = json.loads((RAIZ / "config" / elegido).read_text(encoding="utf-8"))
         else:
             j = st.file_uploader("JSON [{id, poligono}]", type=["json"])
             if j:
                 espacios = json.loads(j.read().decode("utf-8"))
-        st.caption("¿Cámara nueva? Marca los espacios con `python herramientas/marcar_espacios.py --fuente <imagen> --nombre <nombre> --modo-fila` (por filas, semiautomático) y luego elige `espacios_<nombre>.json` aquí.")
+        if not calibrar_en_app:
+            st.caption("¿Cámara nueva? Elige «Marcar en la app» o marca los espacios con `python herramientas/marcar_espacios.py --fuente <imagen> --nombre <nombre> --modo-fila` (por filas, semiautomático) y luego elige `espacios_<nombre>.json` aquí.")
 
     st.header("3. Parámetros")
     cu = CFG["detector_universal"]
@@ -120,7 +149,8 @@ with st.sidebar:
 # ---------------------------------------------------------------- Análisis
 if analizar:
     if not automatico and espacios is None:
-        st.sidebar.error("Falta el JSON de espacios")
+        st.sidebar.error("Faltan los espacios: marca al menos una fila en la pestaña Análisis" if calibrar_en_app
+                         else "Falta el JSON de espacios")
     elif archivo_subido is None and ejemplo is None:
         st.sidebar.error("Falta la imagen o el video")
     else:
@@ -170,6 +200,13 @@ if analizar:
 tab_analisis, tab_chat, tab_resultados = st.tabs(["📷 Análisis", "💬 Asistente", "📊 Resultados del entrenamiento"])
 
 with tab_analisis:
+    if calibrar_en_app:
+        img_calib, nombre_calib = imagen_fuente(archivo_subido, ejemplo, tipo)
+        if img_calib is None:
+            st.warning("Elige primero una imagen o un video en la barra lateral para marcar sus espacios.")
+        else:
+            with st.expander("✏️ Calibración de espacios (modo calibrado)", expanded=True):
+                editor_calibracion(img_calib, nombre_calib, RAIZ / "config")
     estado = st.session_state.estado
     if estado is None:
         st.info("Elige una imagen o un video en la barra lateral y pulsa **Analizar**.")
