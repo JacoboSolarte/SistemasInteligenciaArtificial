@@ -7,6 +7,11 @@ calcula el **% de ocupación**, dibuja los espacios (verde = libre, rojo = ocupa
 conversacional basado en un Transformer** que responde en español con los datos reales del análisis y da
 retroalimentación sobre la confianza del resultado.
 
+🌐 **Pruébalo en línea:** <https://parqueadero-ia.streamlit.app/> (corre en CPU: cada imagen tarda unos segundos;
+si la app estaba dormida, pulsa el botón para despertarla y espera alrededor de un minuto).
+
+📚 Glosario de todos los conceptos usados: [`docs/Glosario_conceptos_Parqueadero_IA.docx`](docs/Glosario_conceptos_Parqueadero_IA.docx)
+
 Tiene **dos modos**:
 
 | Modo | Cómo funciona | Cuándo usarlo |
@@ -550,6 +555,8 @@ print(estado["libres"], estado["ocupados"], estado["vehiculos_detectados"])
 ```
 
 ## 12. Despliegue en Streamlit Community Cloud
+
+**App publicada:** <https://parqueadero-ia.streamlit.app/>
 
 La app se puede publicar gratis desde este repositorio en [share.streamlit.io](https://share.streamlit.io):
 

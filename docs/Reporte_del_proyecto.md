@@ -3,6 +3,7 @@
 **Curso:** Sistemas de Inteligencia Artificial — Proyecto final (Proyecto 7)
 **Entregables cubiertos:** código fuente (carpeta `parqueadero-ia/`), este reporte, guion de la presentación de
 10 minutos (sección 11) y demostración funcional con imágenes y videos (sección 10).
+**Aplicación en línea:** <https://parqueadero-ia.streamlit.app/>
 
 ---
 
@@ -190,6 +191,8 @@ divide sola.
 5. **Velocidad en la GTX 1050:** unos 0.15–0.2 s por frame en modo automático.
 
 ### 6.5 Aplicación web (Streamlit)
+
+Desplegada en Streamlit Community Cloud: <https://parqueadero-ia.streamlit.app/> (PyTorch solo CPU; entrada `despliegue/streamlit_app.py`).
 * **Barra lateral:**
   1. Fuente: imagen o video, de ejemplo o subido.
   2. Modo de detección.
